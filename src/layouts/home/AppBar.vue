@@ -7,18 +7,18 @@
       elevation="1"
       height="80"
     >
-      <base-img
-        :src="require('@/assets/logo.svg')"
-        class="mr-3 hidden-xs-only"
-        contain
-        max-width="52"
-        width="100%"
-      />
+<!--      <base-img-->
+<!--        :src="require('@/assets/logo.svg')"-->
+<!--        class="mr-3 hidden-xs-only"-->
+<!--        contain-->
+<!--        max-width="52"-->
+<!--        width="100%"-->
+<!--      />-->
 
       <base-img
-        :src="require('@/assets/zero-logo-light.svg')"
+        :src="require('@/assets/radikov-consulting.svg')"
         contain
-        max-width="128"
+        max-width="358"
         width="100%"
       />
 

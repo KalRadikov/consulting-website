@@ -27,7 +27,7 @@
         class="elevation-12 mb-12"
         size="128"
       >
-        <v-img :src="require('@/assets/kal-headshot.jpg')" />
+        <v-img :src="require('@/assets/kal-headshot-cropped.jpg')" />
       </v-avatar>
 
       <div />
