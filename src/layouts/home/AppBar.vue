@@ -7,18 +7,18 @@
       elevation="1"
       height="80"
     >
-<!--      <base-img-->
-<!--        :src="require('@/assets/logo.svg')"-->
-<!--        class="mr-3 hidden-xs-only"-->
-<!--        contain-->
-<!--        max-width="52"-->
-<!--        width="100%"-->
-<!--      />-->
+      <!--      <base-img-->
+      <!--        :src="require('@/assets/logo.svg')"-->
+      <!--        class="mr-3 hidden-xs-only"-->
+      <!--        contain-->
+      <!--        max-width="52"-->
+      <!--        width="100%"-->
+      <!--      />-->
 
       <base-img
-        :src="require('@/assets/radikov-consulting.svg')"
+        :src="require('@/assets/radikov-consulting3.svg')"
         contain
-        max-width="358"
+        max-width="300"
         width="100%"
       />
 
@@ -70,9 +70,9 @@
       drawer: null,
       items: [
         'Home',
+        'Services',
         'About',
         'Contact',
-        'Pro',
       ],
     }),
   }
