@@ -18,7 +18,7 @@
       <base-img
         :src="require('@/assets/radikov-consulting.svg')"
         contain
-        max-width="300"
+        max-width="260"
         width="100%"
       />
 
