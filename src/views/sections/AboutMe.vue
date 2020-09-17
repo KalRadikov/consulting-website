@@ -18,7 +18,7 @@
         class="mx-auto title font-weight-light mb-8"
         max-width="720"
       >
-        Vuetify is the #1 component library for Vue.js and has been in active development since 2016. The goal of the project is to provide users with everything that is needed to build rich and engaging web applications using the Material Design specification. It accomplishes that with a consistent update cycle, Long-term Support (LTS) for previous versions, responsive community engagement, a vast ecosystem of resources and a dedication to quality components.
+        Kaloyan (Kal) Radikov is a Calgary based Full-Stack developer with a passion for being on the bleeding edge of software development. Having worked in a wide range of companies from larger monolithic enterprise to smaller fast paced microservice organizations, he has a broad and in-depth skill set covering technical coding, testing, CI/CD, and cloud/local infrastructure. His main goal is to help other grass roots businesses realize their online potential. He loves to tinker with computers, lift heavy things, go hiking, and paint on the side.
       </v-responsive>
 
       <v-avatar
@@ -32,17 +32,17 @@
 
       <v-btn
         color="grey"
-        href="https://vuetifyjs.com"
+        href="https://www.linkedin.com/in/kal-radikov/"
         outlined
         large
       >
         <span class="grey--text text--darken-1 font-weight-bold">
-          Vuetify Documentation
+          More About Me
         </span>
       </v-btn>
     </v-container>
 
-    <div class="py-12" />
+<!--    <div class="py-12" />-->
   </base-section>
 </template>
 

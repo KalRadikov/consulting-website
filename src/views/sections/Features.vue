@@ -3,7 +3,7 @@
     id="features"
     class="grey lighten-3"
   >
-    <div class="py-12" />
+<!--    <div class="py-12" />-->
 
     <v-container class="text-center">
       <h2 class="display-2 font-weight-bold mb-3">
@@ -59,7 +59,7 @@
       </v-row>
     </v-container>
 
-    <div class="py-12" />
+<!--    <div class="py-12" />-->
   </base-section>
 </template>
 

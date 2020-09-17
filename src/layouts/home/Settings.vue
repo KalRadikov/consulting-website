@@ -116,7 +116,7 @@
       return {
         colors: [
           this.$vuetify.theme.themes.light.primary,
-          '#9368e9',
+          '#008c4a',
           '#F4511E',
         ],
         menu: false,
