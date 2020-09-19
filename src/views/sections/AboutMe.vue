@@ -18,7 +18,7 @@
         class="mx-auto title font-weight-light mb-8"
         max-width="720"
       >
-        Kaloyan (Kal) Radikov is a Calgary based Full-Stack developer with a passion for being on the bleeding edge of software development. Having worked in a wide range of companies from larger monolithic enterprise to smaller fast paced microservice organizations, he has a broad and in-depth skill set covering technical coding, testing, CI/CD, and cloud/local infrastructure. His main goal is to help other grass roots businesses realize their online potential. He loves to tinker with computers, lift heavy things, go hiking, and paint on the side.
+        Kaloyan (Kal) Radikov is a Calgary based Full-Stack developer with a passion for being on the bleeding edge of software development. Having worked in a wide range of companies from larger monolithic enterprise to smaller fast paced microservice organizations, he has a broad and in-depth skill set covering technical coding, testing, CI/CD, and cloud/local infrastructure. He wants to embrace the advancements in the digital age and help other grass roots businesses realize their online potential. He loves to tinker with computers, lift heavy things, go hiking, and paint on the side.
       </v-responsive>
 
       <v-avatar
@@ -42,7 +42,7 @@
       </v-btn>
     </v-container>
 
-<!--    <div class="py-12" />-->
+    <!--    <div class="py-12" />-->
   </base-section>
 </template>
 

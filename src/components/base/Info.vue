@@ -2,9 +2,9 @@
   <v-theme-provider :dark="dark">
     <div>
       <base-img
-        :src="require('@/assets/zero-logo-dark.svg')"
+        :src="require('@/assets/radikov-consulting-light.svg')"
         contain
-        max-width="128"
+        max-width="168"
         min-height="78"
         width="100%"
       />

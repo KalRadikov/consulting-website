@@ -3,11 +3,11 @@
     id="features"
     class="grey lighten-3"
   >
-<!--    <div class="py-12" />-->
+    <!--    <div class="py-12" />-->
 
     <v-container class="text-center">
       <h2 class="display-2 font-weight-bold mb-3">
-        VUETIFY FEATURES
+        WHAT WE FOCUS ON
       </h2>
 
       <v-responsive
@@ -59,7 +59,7 @@
       </v-row>
     </v-container>
 
-<!--    <div class="py-12" />-->
+    <!--    <div class="py-12" />-->
   </base-section>
 </template>
 
@@ -71,17 +71,17 @@
       features: [
         {
           icon: 'mdi-account-group-outline',
-          title: 'Vibrant Community',
+          title: 'Small Business',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
         {
-          icon: 'mdi-update',
-          title: 'Frequent Updates',
-          text: 'Sed ut elementum justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.',
+          icon: 'mdi-chart-areaspline',
+          title: 'Scalable',
+          text: 'Sed ut elementum justo. Suspendisse non justo enim. Vest d ut elementum justo. Suspendisse non justo enim. Vestibuluibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.',
         },
         {
           icon: 'mdi-shield-outline',
-          title: 'Long-term Support',
+          title: 'Maintainable',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
       ],
