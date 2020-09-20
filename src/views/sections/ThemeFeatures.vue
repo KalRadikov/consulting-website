@@ -1,7 +1,7 @@
 <template>
   <base-section id="theme-features">
-    <base-section-heading title="Theme Features">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga.
+    <base-section-heading title="Features">
+      If you need some visuals like UI work done, look into some of the things we think about with our service.
     </base-section-heading>
 
     <v-container>
@@ -34,28 +34,34 @@
         {
           title: 'Pixel Perfect Design',
           icon: 'mdi-fountain-pen-tip',
+          text: 'No matter the resolution of the screen you are using. Your solution will look flawless and professional. No blurry logos, no offset items.',
         },
         {
-          title: 'Retina Ready',
+          title: 'Desktop and Mobile ready',
           icon: 'mdi-cellphone',
+          text: 'Whether your customers are viewing it at home or on the go, it’ll look amazing. See how this website looks on different devices!',
         },
         {
           color: 'primary',
           dark: true,
           title: 'Easily Customizable',
+          text: 'Check out the gear icon on the right to see how easy it is to customize and make your solution stand out.',
           icon: 'mdi-pencil-box-outline',
         },
         {
-          title: 'Image Parallax',
+          title: 'Aesthetics',
           icon: 'mdi-image-size-select-actual',
+          text: 'Be it implementing image parallax or flashy transitions, we make sure your solution looks the best it can.',
         },
         {
           title: 'Seo Optimized',
           icon: 'mdi-ice-pop',
+          text: 'Optimizing your site and content with SEO in mind can help your pages rank higher in the search results.',
         },
         {
           title: '24/7 Support',
           icon: 'mdi-help-circle-outline',
+          text: 'We strive to build reliable low maintenance solutions but in the case something fails, we’ve got your back.',
         },
       ],
     }),

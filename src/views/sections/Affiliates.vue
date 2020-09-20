@@ -5,7 +5,7 @@
     space="36"
   >
     <v-container>
-      <base-section-heading title="Who's using Zero?" />
+      <base-section-heading title="we've worked with" />
 
       <v-slide-group>
         <template v-for="n in 6">

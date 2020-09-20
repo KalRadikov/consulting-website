@@ -72,17 +72,17 @@
         {
           icon: 'mdi-account-group-outline',
           title: 'Small Business',
-          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
-        },
-        {
-          icon: 'mdi-chart-areaspline',
-          title: 'Scalable',
-          text: 'Sed ut elementum justo. Suspendisse non justo enim. Vest d ut elementum justo. Suspendisse non justo enim. Vestibuluibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.',
+          text: 'We’re 100% remote startup. From one small business to another, we understand the limitations you’re working with. We help set you up with the tools and technologies to keep the business running without more overhead.',
         },
         {
           icon: 'mdi-shield-outline',
           title: 'Maintainable',
-          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
+          text: 'We want to make the hand off as easy as possible so that you can maintain your solution without introducing unneeded complexity or technical ability. We build the right solution to compliment the abilities of whoever has to use it after.',
+        },
+        {
+          icon: 'mdi-chart-areaspline',
+          title: 'Scalable',
+          text: 'Starting small is okay, in fact that’s what gives us the flexibility to do it right the first time. We aim to provide the right foundation and best practices for your business to grow and scale out when the demand ramps up.',
         },
       ],
     }),
