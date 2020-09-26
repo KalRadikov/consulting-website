@@ -45,6 +45,12 @@
           text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
           callout: '03',
         },
+        {
+          title: 'Target Setting',
+          subtitle: 'Income Flow',
+          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          callout: '04',
+        },
       ],
     }),
   }

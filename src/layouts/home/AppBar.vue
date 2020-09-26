@@ -73,6 +73,7 @@
         'Services',
         'About',
         'Contact',
+        'Test Page',
       ],
     }),
   }

@@ -18,7 +18,6 @@
         'keep-in-touch',
         'map',
         'newsletter',
-        'pro-features',
       ]),
     ],
 

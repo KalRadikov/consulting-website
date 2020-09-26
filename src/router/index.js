@@ -39,7 +39,13 @@ const router = new Router({
           path: 'services',
           name: 'Services',
           component: () => import('@/views/services/Index.vue'),
-          meta: { src: require('@/assets/pro.jpg') },
+          meta: { src: require('@/assets/about.jpg') },
+        },
+        {
+          path: 'test-page',
+          name: 'Test Page',
+          component: () => import('@/views/test-page/Index.vue'),
+          meta: { src: require('@/assets/about.jpg') },
         },
         {
           path: '*',
