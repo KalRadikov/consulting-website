@@ -2,7 +2,7 @@
   <base-section id="about-me">
     <v-container class="text-center">
       <h2 class="display-2 font-weight-bold mb-3">
-        ABOUT ME
+        THE TEAM
       </h2>
 
       <v-responsive
@@ -37,7 +37,7 @@
         large
       >
         <span class="grey--text text--darken-1 font-weight-bold">
-          More About Me
+          More About Kal
         </span>
       </v-btn>
     </v-container>

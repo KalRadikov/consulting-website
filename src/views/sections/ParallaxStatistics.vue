@@ -4,28 +4,33 @@
       :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
       src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
     >
-      <v-container class="fill-height">
-        <v-row class="mx-auto">
-          <v-col
-            v-for="[value, title] of stats"
-            :key="title"
-            cols="12"
-            md="3"
-          >
-            <div class="text-center">
-              <div
-                class="display-3 font-weight-black mb-4"
-                v-text="value"
-              />
-
-              <div
-                class="title font-weight-regular text-uppercase"
-                v-text="title"
-              />
-            </div>
-          </v-col>
-        </v-row>
+      <!--      <v-container class="fill-height">-->
+      <v-container class="text-center">
+        <h2 class="display-2 font-weight-bold mb-3">
+          REALIZE YOUR ONLINE POTENTIAL
+        </h2>
       </v-container>
+      <!--        <v-row class="mx-auto">-->
+      <!--          <v-col-->
+      <!--            v-for="[value, title] of stats"-->
+      <!--            :key="title"-->
+      <!--            cols="12"-->
+      <!--            md="3"-->
+      <!--          >-->
+      <!--            <div class="text-center">-->
+      <!--              <div-->
+      <!--                class="display-3 font-weight-black mb-4"-->
+      <!--                v-text="value"-->
+      <!--              />-->
+
+      <!--              <div-->
+      <!--                class="title font-weight-regular text-uppercase"-->
+      <!--                v-text="title"-->
+      <!--              />-->
+      <!--            </div>-->
+      <!--          </v-col>-->
+      <!--        </v-row>-->
+      <!--      </v-container>-->
     </v-parallax>
   </section>
 </template>

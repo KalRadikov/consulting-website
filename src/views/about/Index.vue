@@ -15,9 +15,9 @@
     mixins: [
       LoadSections([
         'hero-alt',
+        'about-me',
         'about-our-product',
         'theme-features',
-        'about-me',
         'affiliates',
         'newsletter',
         'info',

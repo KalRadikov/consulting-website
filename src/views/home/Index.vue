@@ -16,7 +16,6 @@
     mixins: [
       LoadSections([
         'hero',
-        'about-me',
         'features',
         'parallax-statistics',
         'theme-features',
