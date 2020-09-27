@@ -24,32 +24,44 @@
 <script>
   export default {
     name: 'SectionAboutOurProduct',
-
+    // todo: write paragraphs here
     data: () => ({
       cards: [
         {
-          title: 'Grow your Revenue',
-          subtitle: 'Best Productivity',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          title: 'Software Engineering',
+          subtitle: 'Code',
+          text: '',
           callout: '01',
         },
         {
-          title: 'Affordable Prices',
-          subtitle: 'Special Offers',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          title: 'Infrastructure',
+          subtitle: 'Backend',
+          text: '',
           callout: '02',
         },
         {
-          title: 'Target Setting',
-          subtitle: 'Income Flow',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          title: 'UI/UX Work',
+          subtitle: 'Front end',
+          text: '',
           callout: '03',
         },
         {
-          title: 'Target Setting',
-          subtitle: 'Income Flow',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          title: 'CI/CD',
+          subtitle: 'Development Flow',
+          text: '',
           callout: '04',
+        },
+        {
+          title: 'Testing',
+          subtitle: 'Correctness',
+          text: '',
+          callout: '05',
+        },
+        {
+          title: 'Best Practices',
+          subtitle: 'Industry',
+          text: '',
+          callout: '06',
         },
       ],
     }),
