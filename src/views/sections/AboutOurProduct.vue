@@ -2,8 +2,8 @@
   <base-section id="about-our-product">
     <base-section-heading
       color="grey lighten-2"
-      icon="mdi-vuetify"
-      title="About our Product"
+      icon="mdi-book-open-blank-variant"
+      title="Our Story"
     />
 
     <v-container>
