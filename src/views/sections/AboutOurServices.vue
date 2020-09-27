@@ -24,43 +24,42 @@
 <script>
   export default {
     name: 'SectionAboutOurProduct',
-    // todo: write paragraphs here
     data: () => ({
       cards: [
         {
           title: 'Software Engineering',
           subtitle: 'Code',
-          text: '',
+          text: 'Our team of software engineers coordinate the creation, maintenance and growth of a business’ computer systems. Our team is well verse in the worlds most popular technologies and languages such as Python, Java, .NET, AWS, and Vue to name a few.',
           callout: '01',
         },
         {
           title: 'Infrastructure',
           subtitle: 'Backend',
-          text: '',
+          text: 'We collaborate with business stakeholders to understand their particular needs, then translate those into technical requirements and come up with the most effective and efficient solution for architecting the technology.',
           callout: '02',
         },
         {
           title: 'UI/UX Work',
           subtitle: 'Front end',
-          text: '',
+          text: 'We accurately identify specific issues in user experience and provide recommendations and codified solutions to influence the design. Making a website visually attractive and easy to use, from development to delivery.',
           callout: '03',
         },
         {
           title: 'CI/CD',
           subtitle: 'Development Flow',
-          text: '',
+          text: 'To be successful at continuous delivery or continuous deployment, it is critical to do continuous integration and continuous testing well. With a solid foundation, we will win on all three fronts: quality, frequently, and predictability.',
           callout: '04',
         },
         {
           title: 'Testing',
           subtitle: 'Correctness',
-          text: '',
+          text: 'A good testing suite should try to break the app and help understand its limit. We have experience with: Automated testing, Unit tests, Integration tests, Functional tests, End-to-end tests, Acceptance testing, Performance testing.',
           callout: '05',
         },
         {
           title: 'Best Practices',
           subtitle: 'Industry',
-          text: '',
+          text: 'Readable yet efficient code, we highly value the S.O.L.I.D principles and other guiding best practices of modern software design.',
           callout: '06',
         },
       ],
