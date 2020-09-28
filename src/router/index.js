@@ -27,7 +27,7 @@ const router = new Router({
           path: 'about',
           name: 'About',
           component: () => import('@/views/about/Index.vue'),
-          meta: { src: require('@/assets/about.jpg') },
+          meta: { src: require('@/assets/pro.jpg') },
         },
         {
           path: 'contact-us',
