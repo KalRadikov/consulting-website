@@ -29,7 +29,7 @@
         {
           title: 'Software Engineering',
           subtitle: 'Code',
-          text: 'Our team of software engineers coordinate the creation, maintenance and growth of a business’ computer systems. Our team is well verse in the worlds most popular technologies and languages such as Python, Java, .NET, AWS, and Vue to name a few.',
+          text: 'Our team of software engineers coordinate the creation, maintenance and growth of a business’ computer systems. Our team is proficient in the worlds most popular technologies and languages such as Python, Java, .NET, AWS, and Vue to name a few.',
           callout: '01',
         },
         {
