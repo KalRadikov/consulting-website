@@ -5,7 +5,7 @@
         title="KEEP IN TOUCH WITH US"
         pace="6"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate. Nulla minus voluptatum nostrum deleniti, asperiores facere.
+        Have a question or something you'd like to run by us? No problem, leave us some details about your project and we'll get back to you within 24 hours.
       </base-info-card>
 
       <base-business-contact dense />

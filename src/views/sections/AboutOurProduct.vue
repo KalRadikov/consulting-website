@@ -5,10 +5,10 @@
       icon="mdi-book-open-blank-variant"
       title="Our Story"
     >
-      Radikov Consulting was started because we were tired of the inaccesibility of
-      professional work to small businesses when they are trying to get their footing.
-      We have one mission: to break down the barrier to entry into most things technical
-      and provide a solution that is maintainable by the very people running their business.
+      Radikov Consulting was started to better connect with our community to provide an easy to understand 
+      and affordable technical service. We have one mission: to break down the entry barrier to getting expert
+      advice for just about anything tech-related. Our goal is to break down the problem or request into a 
+      series of requirements and then build upon them to create something you can manage when we are done. 
       We are a grassroots solution for grassroots businesses.
     </base-section-heading>
 
