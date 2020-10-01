@@ -1,4 +1,4 @@
-﻿<script>
+<script>
   // Extensions
   import View from '@/views/View'
 
