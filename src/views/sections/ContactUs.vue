@@ -15,7 +15,7 @@
 
             <base-body space="0">
               <span class="white--text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor itaque modi ab accusantium architecto voluptates ipsa molestiae.
+                Leave us some details about your project and we'll get back to you within 24 hours.
               </span>
             </base-body>
           </v-col>
@@ -27,7 +27,7 @@
             <base-btn
               :block="$vuetify.breakpoint.smAndDown"
               color="white"
-              href="mailto:shop@vuetifyjs.com?subject=Zero%20Theme%20Question"
+              href="mailto:shop@vuetifyjs.com?subject=Project%20Inquiry"
               large
               outlined
               target="_blank"
