@@ -1,18 +1,23 @@
 <template>
-  <base-section id="our-story">
+  <base-section
+    id="our-story"
+    class="grey lighten-3"
+  >
     <base-section-heading
-      color="grey lighten-2"
       icon="mdi-book-open-blank-variant"
       title="Our Story"
-    >
-      Radikov Consulting was started in 2020 to better connect with our community to provide an understandable
-      and affordable solution. After many years experience in professional software development, founder and CEO,
-      Kaloyan Radikov wanted to follow his passsion and branch out of slow moving enterprise practice and focus on exceptiopnal
-      aesthetic, responsive speed, easy scalability, and much needed flexibility of a modern technical service.
-      We are a grassroots solution for grassroots businesses.
-    </base-section-heading>
-
+    />
     <v-container class="text-center">
+      <v-responsive
+        class="mx-auto title font-weight-light mb-8"
+        max-width="720"
+      >
+        Radikov Consulting was started in 2020 to better connect with our community to provide an understandable
+        and affordable solution. After many years experience in professional software development, founder and CEO,
+        Kaloyan Radikov wanted to follow his passsion and branch out of slow moving enterprise practice and focus on exceptional
+        aesthetic, responsive speed, easy scalability, and much needed flexibility of a modern technical service.
+        We are a grassroots solution for grassroots businesses.
+      </v-responsive>
       <v-row>
         <v-col
           v-for="({ icon, title, text }, i) in features"

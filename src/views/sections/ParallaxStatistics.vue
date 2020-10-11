@@ -2,7 +2,7 @@
   <section id="parallax-statistics">
     <v-parallax
       :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
-      src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+      :src="require('@/assets/programming.jpg')"
     >
       <!--      <v-container class="fill-height">-->
       <v-container class="text-center">
