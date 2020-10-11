@@ -12,12 +12,12 @@
       <base-title
         size="body-1"
         space="4"
-        title="MULTI-PURPOSE THEME"
+        title="REALIZE YOUR ONLINE POTENTIAL"
         weight="regular"
       />
 
       <base-body>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate. Nulla minus voluptatum nostrum deleniti, asperiores facere.
+        We want your website to look great, work better, and get found online. With a focus on quality design and helpful customer service, we also offer flexible payment plans and financing. Contact us today, or get a free quote and consultation on your dream website project. Affordable web design in Calgary.
       </base-body>
 
       <base-btn
