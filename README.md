@@ -4,7 +4,7 @@ Radikov Consulting Vue.js website
 This is a static vue website for my consulting firm startup. We want to provide an amazing technical service that works for you.
 
 ## Live Website
-Check out the live website at [radikov.ml](https://www.radikov.ml). Buiilt using Vue, compiled and hosted by Netlify
+Check out the live website at [radikov.ml](https://www.radikov.ml). Built using Vue, compiled and hosted by Netlify.
 
 ## Setup
 
