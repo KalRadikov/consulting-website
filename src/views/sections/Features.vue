@@ -72,17 +72,17 @@
         {
           icon: 'mdi-account-group-outline',
           title: 'Small Business',
-          text: 'We’re 100% remote startup. From one small business to another, we understand the limitations you’re working with. We help set you up with the tools and technologies to keep the business running without more overhead.',
+          text: 'We’re a 100% remote startup. From one small business to another, we understand the limitations you’re working with. We help set you up with the tools and technologies to keep the business running without more overhead.',
+        },
+        {
+          icon: 'mdi-chart-areaspline',
+          title: 'Scalable',
+          text: 'When the demand ramps up, we provide the right foundation and best practices for your business to grow and scale out. Starting small is okay, in fact that’s what gives us the flexibility to do it right the first time.',
         },
         {
           icon: 'mdi-shield-outline',
           title: 'Maintainable',
           text: 'We want to make the hand off as easy as possible so that you can maintain your solution without introducing unneeded complexity or technical ability. We build the right solution to compliment the abilities of whoever has to use it after.',
-        },
-        {
-          icon: 'mdi-chart-areaspline',
-          title: 'Scalable',
-          text: 'Starting small is okay, in fact that’s what gives us the flexibility to do it right the first time. We aim to provide the right foundation and best practices for your business to grow and scale out when the demand ramps up.',
         },
       ],
     }),

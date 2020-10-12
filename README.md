@@ -32,3 +32,8 @@ npm run build
 ```
 npm run lint
 ```
+
+
+### Colour palletes
+Green: #008c4a <br>
+Dark: #555555

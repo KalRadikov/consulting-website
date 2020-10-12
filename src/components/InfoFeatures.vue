@@ -1,5 +1,5 @@
 <template>
-  <base-info-card title="Features">
+  <base-info-card title="Case Studies">
     <a
       v-for="feature in features"
       :key="feature"

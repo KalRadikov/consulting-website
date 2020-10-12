@@ -1,7 +1,7 @@
 <template>
   <base-section id="theme-features">
     <base-section-heading title="Features">
-      If you need some visuals like UI work done, look into some of the things we think about with our service.
+      A good UI and user experience will set the expectations for your business. Look into some of the things we think about with our service.
     </base-section-heading>
 
     <v-container>
@@ -55,7 +55,7 @@
           text: 'Be it implementing image parallax or flashy transitions, we make sure your solution looks the best it can.',
         },
         {
-          title: 'Seo Optimized',
+          title: 'Search Engine Optimized',
           icon: 'mdi-ice-pop',
           text: 'Optimizing your site and content with SEO in mind can help your pages rank higher in the search results.',
         },

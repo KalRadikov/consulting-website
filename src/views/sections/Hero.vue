@@ -3,7 +3,7 @@
     <v-row no-gutters>
       <v-img
         :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-        src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+        :src="require('@/assets/desk.jpg')"
       >
         <v-theme-provider dark>
           <v-container class="fill-height">
@@ -17,11 +17,12 @@
                 cols="12"
                 tag="h1"
               >
+                <div class="py-10" />
                 <span
                   :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
                   class="font-weight-light"
                 >
-                  A GRASS ROOTS
+                  REALIZE YOUR ONLINE
                 </span>
 
                 <br>
@@ -30,7 +31,7 @@
                   :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
                   class="font-weight-black"
                 >
-                  BUSINESS
+                  POTENTIAL
                 </span>
               </v-col>
 

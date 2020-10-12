@@ -1,6 +1,6 @@
 <template>
   <base-section
-    id="pro-features"
+    id="pro-features2"
   >
     <section id="hero">
       <v-row no-gutters>

@@ -19,6 +19,7 @@
         'map',
         'newsletter',
         'pro-features',
+        'pro-features2',
       ]),
     ],
 

@@ -22,6 +22,7 @@
 </template>
 
 <script>
+// todo: convince why business needs these
   export default {
     name: 'SectionAboutOurProduct',
     data: () => ({
@@ -35,7 +36,7 @@
         {
           title: 'Infrastructure',
           subtitle: 'Backend',
-          text: 'We collaborate with business stakeholders to understand their particular needs, then translate those into technical requirements and come up with the most effective and efficient solution for architecting the technology.',
+          text: 'We collaborate with business stakeholders to understand their particular needs, then translate those into technical requirements and come up with the most effective and efficient solution for designing the technology.',
           callout: '02',
         },
         {
@@ -45,15 +46,15 @@
           callout: '03',
         },
         {
-          title: 'CI/CD',
+          title: 'Continuous Delivery',
           subtitle: 'Development Flow',
-          text: 'To be successful at continuous delivery or continuous deployment, it is critical to do continuous integration and continuous testing well. With a solid foundation, we will win on all three fronts: quality, frequently, and predictability.',
+          text: 'To be successful at continuous integration and continuous delivery, it is critical to do integration and testing well. With a solid foundation, we excel on all three fronts: quality, frequency, and predictability.',
           callout: '04',
         },
         {
           title: 'Testing',
           subtitle: 'Correctness',
-          text: 'A good testing suite should try to break the app and help understand its limit. We have experience with: Automated testing, Unit tests, Integration tests, Functional tests, End-to-end tests, Acceptance testing, Performance testing.',
+          text: 'As your business grows, to ensure the foundation A good testing suite should try to break the app and help understand its limit. We have experience with: Automated testing, Unit tests, Integration tests, Functional tests, End-to-end tests, Acceptance testing, Performance testing.',
           callout: '05',
         },
         {
