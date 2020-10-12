@@ -16,8 +16,8 @@
       LoadSections([
         'hero-alt',
         'about-our-services',
-        'features-2',
-        'theme-features',
+        'online-services',
+        'web-features',
         'affiliates',
         'newsletter',
         'info',

@@ -1,6 +1,6 @@
 <template>
-  <base-section id="theme-features">
-    <base-section-heading title="Features">
+  <base-section id="web-features">
+    <base-section-heading title="Web Development Features">
       Close to 50% of online viewers see a website’s design as the number one criterion with respect to a company's credibility. If your website looks staled and outdated, or simply non-professional, you could be losing customers.
     </base-section-heading>
 

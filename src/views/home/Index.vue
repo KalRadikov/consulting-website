@@ -18,7 +18,7 @@
         'hero',
         'features',
         'parallax-statistics',
-        'theme-features',
+        'web-features',
         'contact-us',
         'affiliates',
         'social-media',

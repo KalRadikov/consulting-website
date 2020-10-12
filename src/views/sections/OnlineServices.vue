@@ -1,6 +1,6 @@
 ﻿<template>
   <base-section
-    id="features-2"
+    id="online-services"
     class="secondary"
   >
     <v-responsive
@@ -52,7 +52,7 @@
         {
           icon: 'mdi-cloud-outline',
           title: 'The Cloud',
-          text: 'Efficiently build your company’s IT infrastructure with our AWS expertise and forget downtime, servers, and scale concerns.',
+          text: 'Efficiently build your company’s IT infrastructure with our AWS expertise and forget downtime, servers, and scale concerns. Allow yourself to focus on your business more.',
         },
 
       ],
