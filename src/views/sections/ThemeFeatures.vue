@@ -1,7 +1,7 @@
 <template>
   <base-section id="theme-features">
     <base-section-heading title="Features">
-      A good UI and user experience will set the expectations for your business. Look into some of the things we think about with our service.
+      Close to 50% of online viewers see a website’s design as the number one criterion with respect to a company's credibility. If your website looks staled and outdated, or simply non-professional, you could be losing customers.
     </base-section-heading>
 
     <v-container>
@@ -60,9 +60,9 @@
           text: 'Optimizing your site and content with SEO in mind can help your pages rank higher in the search results.',
         },
         {
-          title: '24/7 Support',
-          icon: 'mdi-help-circle-outline',
-          text: 'We strive to build reliable low maintenance solutions but in the case something fails, we’ve got your back.',
+          title: 'Domain name and hosting',
+          icon: 'mdi-database',
+          text: 'An essential part of any website. Going with the right webhost or domain registrar can be day/night to your website’s performance.',
         },
       ],
     }),

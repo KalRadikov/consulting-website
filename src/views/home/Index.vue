@@ -19,7 +19,6 @@
         'features',
         'parallax-statistics',
         'theme-features',
-        'features-2',
         'contact-us',
         'affiliates',
         'social-media',

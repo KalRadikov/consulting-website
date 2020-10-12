@@ -35,7 +35,7 @@
         },
         {
           title: 'Infrastructure',
-          subtitle: 'Backend',
+          subtitle: 'Back end',
           text: 'We collaborate with business stakeholders to understand their particular needs, then translate those into technical requirements and come up with the most effective and efficient solution for designing the technology.',
           callout: '02',
         },
