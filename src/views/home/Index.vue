@@ -19,6 +19,7 @@
         'features',
         'parallax-statistics',
         'web-features',
+        'portfolio',
         'contact-us',
         'affiliates',
         'social-media',
