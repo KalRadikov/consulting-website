@@ -2,7 +2,7 @@
   <div>
     <v-list
       two-line
-      :tile="true"
+      class="rounded-0"
     >
       <v-list-item>
         <v-list-item-avatar>
