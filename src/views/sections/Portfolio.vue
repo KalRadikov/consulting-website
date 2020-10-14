@@ -1,63 +1,71 @@
 ﻿<template>
-  <section id="portfolio">
-    <base-section-heading
-      color="grey lighten-2"
-      icon="mdi-vuetify"
-      title="Portfolio Showcase"
-    />
-    <v-carousel
-      v-model="model"
-      cycle
-    >
-      <v-carousel-item>
-        <v-img
-          :src="require('@/assets/desk.jpg')"
-        />
-      </v-carousel-item>
-      <v-carousel-item>
-        <v-img
-          :src="require('@/assets/article.jpg')"
-        />
-      </v-carousel-item>
-
-      <v-carousel-item>
-        <v-img
-          :src="require('@/assets/sink.jpg')"
-        />
-      </v-carousel-item>
-    </v-carousel>
-    <v-list two-line>
-      <v-list-item>
-        <v-list-item-avatar>
-          <v-img src="https://cdn.vuetifyjs.com/images/john.png" />
-        </v-list-item-avatar>
-        <v-list-item-content>
-          <v-list-item-title>John Leider</v-list-item-title>
-          <v-list-item-subtitle>Author</v-list-item-subtitle>
-        </v-list-item-content>
-        <v-list-item-content>
-          <v-list-item-title>
-            {{ captions[model] }}
-          </v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
-    </v-list>
+  <section
+    id="portfolio"
+  >
+    <v-row no-gutters>
+      <v-col
+        cols="12"
+        md="4"
+        class="secondary"
+      >
+        <v-container class="extra-padding">
+          <v-theme-provider dark>
+            <v-responsive max-width="460px">
+              <base-section-heading
+                align="left"
+                color="grey lighten-2"
+                subtitle="Portfolio Showcase"
+                title="RECENT WORKS"
+              >
+                On this section we have some recent examples of clients we’ve helped out. Click the arrows to see end result and project notes. Mouse over the screenshots to see the website scroll vertically.
+              </base-section-heading>
+            </v-responsive>
+          </v-theme-provider>
+        </v-container>
+      </v-col>
+      <v-col
+        cols="12"
+        md="8"
+      >
+        <v-carousel>
+          <v-carousel-item
+            v-for="({ website, desc, link }, i) in portfolio"
+            :key="i"
+          >
+            <base-website-preview
+              :image="website"
+              :caption="desc"
+              :link="link"
+            />
+          </v-carousel-item>
+        </v-carousel>
+      </v-col>
+    </v-row>
   </section>
 </template>
 
 <script>
   export default {
     name: 'Portfolio',
-    data () {
-      return {
-        model: 0,
-        captions: [
-          'This is slide 1',
-          'This is the second slide',
-          'This is a third and final slide',
-        ],
-      }
-    },
+    data: () => ({
+      portfolio: [
+        {
+          website: 'desk.jpg',
+          desc: 'This is slide 1',
+          link: 'https://7ports.ca/',
+        },
+        {
+          website: 'article.jpg',
+          desc: 'This is slide 2',
+          link: 'https://7ports.ca/',
+        },
+        {
+          website: 'sink.jpg',
+          desc: 'This is slide 3',
+          link: 'https://7ports.ca/',
+        },
+      ],
+    }),
   }
 </script>
 
