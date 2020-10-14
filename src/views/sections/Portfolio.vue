@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <section
     id="portfolio"
   >
@@ -40,7 +40,7 @@
               :caption="desc"
               :link="link"
               :logo="logo"
-              :companyName="name"
+              :company-name="name"
             />
           </v-carousel-item>
         </v-carousel>
