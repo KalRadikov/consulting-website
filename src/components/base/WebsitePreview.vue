@@ -22,10 +22,11 @@
         :href="link"
         target="_blank"
       >
-        <img
+        <v-img
           :src="require('@/assets/' + image + '')"
-          class="img-hover-zoom"
+          class="hover-zoom"
         >
+        </v-img>
       </a>
     </div>
   </div>
@@ -45,19 +46,15 @@
 </script>
 
 <style>
-.img-hover-zoom {
+.hover-zoom:hover {
+  transform: scale(1.2);
+}
+.hover-zoom {
+  transition: transform .5s ease;
+}
+.hover-zoom {
   width:100%;
   height:auto;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-}
-
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom img {
-  transition: transform .5s ease;
-}
-
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom:hover img {
-  transform: scale(1.3);
 }
 </style>
