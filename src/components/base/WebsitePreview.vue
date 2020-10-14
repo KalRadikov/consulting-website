@@ -2,19 +2,17 @@
   <div>
     <v-list
       two-line
+      :tile="true"
     >
       <v-list-item>
         <v-list-item-avatar>
-          <v-img src="https://cdn.vuetifyjs.com/images/john.png" />
+          <v-img :src="require('@/assets/' + logo + '')" />
         </v-list-item-avatar>
         <v-list-item-content>
-          <v-list-item-title>John Leider</v-list-item-title>
-          <v-list-item-subtitle>Author</v-list-item-subtitle>
-        </v-list-item-content>
-        <v-list-item-content>
-          <v-list-item-title>
+          <v-list-item-title>{{ companyName }}</v-list-item-title>
+          <v-list-item-subtitle class="text-wrap">
             {{ caption }}
-          </v-list-item-title>
+          </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -38,16 +36,18 @@
     name: 'BaseWebsitePreview',
     props: {
       image: String,
+      companyName: String,
       caption: String,
       link: String,
+      logo: String,
     },
   }
 </script>
 
 <style>
 .img-hover-zoom {
-  max-width:100%;
-  max-height:100%;
+  width:100%;
+  height:auto;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
