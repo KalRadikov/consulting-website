@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-card tile>
     <v-list
       two-line
       class="rounded-0"
@@ -16,8 +16,7 @@
         </v-list-item-content>
       </v-list-item>
     </v-list>
-
-    <div class="img-hover-zoom">
+    <v-container class="overflow ma-0 pa-0">
       <a
         :href="link"
         target="_blank"
@@ -25,11 +24,11 @@
         <v-img
           :src="require('@/assets/' + image + '')"
           class="hover-zoom"
-        >
-        </v-img>
+          height="620px"
+        />
       </a>
-    </div>
-  </div>
+    </v-container>
+  </v-card>
 </template>
 
 <script>
@@ -56,5 +55,8 @@
   width:100%;
   height:auto;
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.overflow {
+  overflow: hidden;
 }
 </style>
