@@ -30,7 +30,10 @@
         cols="12"
         md="8"
       >
-        <v-carousel>
+        <v-carousel
+          cycle
+          hide-delimiter-background
+        >
           <v-carousel-item
             v-for="({ website, desc, link, logo, name }, i) in portfolio"
             :key="i"
