@@ -27,7 +27,7 @@
             <base-btn
               :block="$vuetify.breakpoint.smAndDown"
               color="white"
-              href="mailto:shop@vuetifyjs.com?subject=Project%20Inquiry"
+              href="mailto:radikov.consulting@gmail.com?subject=General%20Inquiry"
               large
               outlined
               target="_blank"

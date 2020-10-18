@@ -58,7 +58,7 @@
         {
           icon: 'mdi-email',
           title: 'Email',
-          text: 'TBD@TBD.com<br>TBD@TBD.com',
+          text: 'radikov.consulting@gmail.com<br>TBD@TBD.com',
         },
       ],
     }),

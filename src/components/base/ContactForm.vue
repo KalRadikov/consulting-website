@@ -20,7 +20,7 @@
 
     <base-btn
       :color="!theme.isDark ? 'accent' : 'white'"
-      href="mailto:shop@vuetifyjs.com?subject=Project%20Inquiry"
+      href="mailto:radikov.consulting@gmail.com?subject=Project%20Inquiry"
       outlined
       target="_blank"
     >
