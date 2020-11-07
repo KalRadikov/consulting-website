@@ -1,7 +1,7 @@
 <template>
   <base-section
     id="features"
-    class="grey lighten-3"
+    :style="{background: $vuetify.theme.themes[theme].alternateBackground}"
   >
     <!--    <div class="py-12" />-->
 
@@ -28,7 +28,7 @@
         >
           <v-card
             class="py-12 px-4"
-            color="grey lighten-5"
+            color="card"
             flat
           >
             <v-theme-provider dark>
@@ -66,7 +66,6 @@
 <script>
   export default {
     name: 'SectionFeatures',
-
     data: () => ({
       features: [
         {
@@ -86,5 +85,10 @@
         },
       ],
     }),
+    computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
+    },
   }
 </script>

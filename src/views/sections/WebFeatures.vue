@@ -62,7 +62,7 @@
         {
           title: 'Domain name and hosting',
           icon: 'mdi-database',
-          text: 'An essential part of any website. Going with the right webhost or domain registrar can be day/night to your website’s performance.',
+          text: 'An essential part of any website. Going with the right webhost or domain registrar can be day/night to your website’s performance and cost. Only pay for what you use.',
         },
       ],
     }),

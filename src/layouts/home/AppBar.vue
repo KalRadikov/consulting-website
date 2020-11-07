@@ -3,7 +3,7 @@
     <v-app-bar
       id="home-app-bar"
       app
-      color="white"
+      color="background"
       elevation="1"
       height="80"
     >

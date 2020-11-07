@@ -1,7 +1,7 @@
 <template>
   <base-section
     id="our-story"
-    class="grey lighten-3"
+    :style="{background: $vuetify.theme.themes[theme].alternateBackground}"
   >
     <base-section-heading
       icon="mdi-book-open-blank-variant"
@@ -27,7 +27,7 @@
         >
           <v-card
             class="py-12 px-4"
-            color="grey lighten-5"
+            color="card"
             flat
           >
             <v-theme-provider dark>
@@ -65,6 +65,11 @@
   export default {
     name: 'SectionOurStory',
     components: { BaseSectionHeading },
+    computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
+    },
     data: () => ({
       features: [
         {
