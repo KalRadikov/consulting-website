@@ -58,10 +58,10 @@
     data: () => ({
       portfolio: [
         {
-          website: 'sink.jpg',
+          website: 'pujara-site.png',
           name: 'Pujara Games',
           desc: 'Portfolio work coming soon...',
-          logo: 'logo.svg',
+          logo: 'pujara-logo.png',
           link: 'https://7ports.ca/',
         },
         {
