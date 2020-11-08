@@ -21,6 +21,7 @@
         'web-features',
         'portfolio',
         'contact-us',
+        'customer-reviews',
         'affiliates',
         'social-media',
         'keep-in-touch',
