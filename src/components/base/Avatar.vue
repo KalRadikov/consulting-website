@@ -2,7 +2,7 @@
   <div
     :class="classes"
     class="base-avatar d-inline-flex"
-    :style="{background: $vuetify.theme.themes[theme].background}"
+    :style="weirdFixApply"
   >
     <v-avatar
       v-if="outlined"
@@ -37,6 +37,10 @@
 
     props: {
       color: String,
+      weirdFix: {
+        type: Boolean,
+        default: false,
+      },
       dark: Boolean,
       icon: String,
       outlined: Boolean,
@@ -61,6 +65,12 @@
       },
       outlineSize () {
         return Number(this.size) + (this.size / this.multiply)
+      },
+      weirdFixApply () {
+        if (this.weirdFix) {
+          return { background: this.$vuetify.theme.themes[this.theme].background }
+        }
+        return ''
       },
       styles () {
         const margin = this.size / (this.multiply * 2)

@@ -45,7 +45,7 @@
         {
           icon: 'mdi-map-marker-outline',
           title: 'Address',
-          text: '8553 N. Beach St. Ste. 227<br>Fort Worth, Texas 76137',
+          text: '8553 N. Beach St. Ste. 227<br>Fort Worth, Texas 7613',
         },
         {
           icon: 'mdi-cellphone',

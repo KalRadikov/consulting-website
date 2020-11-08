@@ -6,6 +6,7 @@
     <base-avatar
       v-if="icon"
       :color="color"
+      :weirdFix="weirdFix"
       :dark="dark"
       :icon="icon"
       :outlined="outlined"
@@ -46,6 +47,10 @@
       align: {
         type: String,
         default: 'left',
+      },
+      weirdFix: {
+        type: Boolean,
+        default: false,
       },
       color: String,
       dark: Boolean,

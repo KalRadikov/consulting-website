@@ -16,6 +16,7 @@
             v-bind="feature"
             align="left"
             horizontal
+            :weirdFix="true"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi
             beatae quas maxime, laboriosam excepturi solut!
@@ -29,7 +30,11 @@
 <script>
   export default {
     name: 'SectionThemeFeatures',
-
+    computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
+    },
     data: () => ({
       features: [
         {
