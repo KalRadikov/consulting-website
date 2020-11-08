@@ -24,7 +24,6 @@
         <v-img
           :src="require('@/assets/' + image + '')"
           class="hover-zoom"
-          height="620px"
         />
       </a>
     </v-container>
@@ -46,10 +45,11 @@
 
 <style>
 .hover-zoom:hover {
-  transform: scale(1.2);
+  /*transform: scale(1.2);*/
+  transform: translateY(calc(-100% + 415px));
 }
 .hover-zoom {
-  transition: transform .5s ease;
+  transition: transform 2s ease;
 }
 .hover-zoom {
   width:100%;

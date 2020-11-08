@@ -20,7 +20,7 @@
                 subtitle="Portfolio Showcase"
                 title="RECENT WORKS"
               >
-                On this section we have some recent examples of clients we’ve helped out. Click the arrows to see end result and project notes. Mouse over the screenshots to see the website scroll vertically.
+                On this section we have some recent examples of clients we’ve helped out. Check out the project notes and click the image to see the live website. Mouse over the screenshots to see the website scroll vertically.
               </base-section-heading>
             </v-responsive>
           </v-theme-provider>
@@ -58,23 +58,24 @@
     data: () => ({
       portfolio: [
         {
-          website: 'pujara-site.png',
+          // image sizes are 1280 x 1280 made with https://www.photojoiner.net/
+          website: 'pujara-scrollable.jpg',
           name: 'Pujara Games',
-          desc: 'Portfolio work coming soon...',
+          desc: 'More portfolio work coming soon...',
           logo: 'pujara-logo.png',
           link: 'https://7ports.ca/',
         },
         {
           website: 'article.jpg',
           name: 'Company Name',
-          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+          desc: 'More portfolio work coming soon...',
           logo: 'user-1.jpg',
           link: 'https://7ports.ca/',
         },
         {
           website: 'desk.jpg',
           name: 'Company Name',
-          desc: 'Portfolio work coming soon...',
+          desc: 'More portfolio work coming soon...',
           logo: 'user-2.jpg',
           link: 'https://7ports.ca/',
         },
