@@ -38,6 +38,29 @@
 
       <v-card-text>
         <v-item-group
+          v-if="$vuetify.theme.dark"
+          v-model="$vuetify.theme.themes.dark.primary"
+          class="d-flex justify-center"
+        >
+          <v-item
+            v-for="color in colors"
+            :key="color"
+            :value="color"
+          >
+            <template v-slot="{ active, toggle }">
+              <base-avatar
+                :color="color"
+                :outlined="active"
+                class="ma-2"
+                size="48"
+                style="cursor: pointer;"
+                @click.stop="toggle"
+              />
+            </template>
+          </v-item>
+        </v-item-group>
+        <v-item-group
+          v-else
           v-model="$vuetify.theme.themes.light.primary"
           class="d-flex justify-center"
         >

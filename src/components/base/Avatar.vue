@@ -2,6 +2,7 @@
   <div
     :class="classes"
     class="base-avatar d-inline-flex"
+    :style="{background: $vuetify.theme.themes[theme].background}"
   >
     <v-avatar
       v-if="outlined"
@@ -50,6 +51,9 @@
     }),
 
     computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
       classes () {
         return [
           this.outlined && 'base-avatar--outlined',

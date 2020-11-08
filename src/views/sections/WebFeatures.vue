@@ -33,11 +33,15 @@
     data: () => ({
       features: [
         {
+          color: 'primary',
+          dark: true,
           title: 'Pixel Perfect Design',
           icon: 'mdi-fountain-pen-tip',
           text: 'No matter the resolution of the screen you are using. Your solution will look flawless and professional. No blurry logos, no offset items.',
         },
         {
+          color: 'primary',
+          dark: true,
           title: 'Desktop and Mobile ready',
           icon: 'mdi-cellphone',
           text: 'Whether your customers are viewing it at home or on the go, it’ll look amazing. See how this website looks on different devices!',
@@ -50,16 +54,22 @@
           icon: 'mdi-pencil-box-outline',
         },
         {
+          color: 'primary',
+          dark: true,
           title: 'Aesthetics',
           icon: 'mdi-image-size-select-actual',
           text: 'Be it implementing image parallax or flashy transitions, we make sure your solution looks the best it can.',
         },
         {
+          color: 'primary',
+          dark: true,
           title: 'Search Engine Optimized',
           icon: 'mdi-ice-pop',
           text: 'Optimizing your site and content with SEO in mind can help your pages rank higher in the search results.',
         },
         {
+          color: 'primary',
+          dark: true,
           title: 'Domain name and hosting',
           icon: 'mdi-database',
           text: 'An essential part of any website. Going with the right webhost or domain registrar can be day/night to your website’s performance and cost. Only pay for what you use.',

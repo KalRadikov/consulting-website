@@ -3,7 +3,7 @@
     <v-app-bar
       id="home-app-bar"
       app
-      color="background"
+      color="topBar"
       elevation="1"
       height="80"
     >
@@ -16,6 +16,14 @@
       <!--      />-->
 
       <base-img
+        v-if="this.$vuetify.theme.dark"
+        :src="require('@/assets/radikov-consulting-light.svg')"
+        contain
+        max-width="260"
+        width="100%"
+      />
+      <base-img
+        v-else
         :src="require('@/assets/radikov-consulting-dark.svg')"
         contain
         max-width="260"

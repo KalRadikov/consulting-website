@@ -1,7 +1,7 @@
 <template>
   <base-section
     id="affiliates"
-    class="grey lighten-4"
+    :style="{background: $vuetify.theme.themes[theme].alternateBackground}"
     space="36"
   >
     <v-container>
@@ -14,6 +14,16 @@
             class="align-self-center"
           >
             <base-img
+              v-if="$vuetify.theme.dark"
+              :src="require(`@/assets/logo-${n}.png`)"
+              style="filter: invert(100%)"
+              color="grey"
+              contain
+              height="40"
+              width="128"
+            />
+            <base-img
+              v-else
               :src="require(`@/assets/logo-${n}.png`)"
               color="grey"
               contain
@@ -40,5 +50,14 @@
 <script>
   export default {
     name: 'SectionAffiliates',
+    computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
+    },
   }
 </script>
+
+<style>
+.invert { filter: invert(100%); }
+</style>
