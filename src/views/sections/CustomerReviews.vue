@@ -6,28 +6,53 @@
       title="Customer Reviews"
       icon="mdi-chat-processing"
     />
-    <v-carousel
-      hide-delimiter-background
-      light
-    >
-      <v-carousel-item
-        v-for="({ headshot, name, title, text, }, i) in reviews"
-        :key="i"
+    <v-theme-provider>
+      <v-carousel
+        v-if="theme == 'light'"
+        hide-delimiter-background
+        light
       >
-        <base-customer-review
-          :picture="headshot"
-          :client-name="name"
-          :job-title="title"
-          :review="text"
-        />
-      </v-carousel-item>
-    </v-carousel>
+        <v-carousel-item
+          v-for="({ headshot, name, title, text, }, i) in reviews"
+          :key="i"
+        >
+          <base-customer-review
+            :picture="headshot"
+            :client-name="name"
+            :job-title="title"
+            :review="text"
+          />
+        </v-carousel-item>
+      </v-carousel>
+      <v-carousel
+        v-if="theme == 'dark'"
+        hide-delimiter-background
+        dark
+      >
+        <v-carousel-item
+          v-for="({ headshot, name, title, text, }, i) in reviews"
+          :key="i"
+        >
+          <base-customer-review
+            :picture="headshot"
+            :client-name="name"
+            :job-title="title"
+            :review="text"
+          />
+        </v-carousel-item>
+      </v-carousel>
+    </v-theme-provider>
   </base-section>
 </template>
 
 <script>
   export default {
     name: 'CustomerReviews',
+    computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
+    },
     data: () => ({
       reviews: [
         {
