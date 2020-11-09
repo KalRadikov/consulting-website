@@ -66,14 +66,14 @@
           link: 'https://7ports.ca/',
         },
         {
-          website: 'article.jpg',
+          website: 'example-site.png',
           name: 'Company Name',
           desc: 'More portfolio work coming soon...',
           logo: 'user-1.jpg',
           link: 'https://7ports.ca/',
         },
         {
-          website: 'desk.jpg',
+          website: 'example-site.png',
           name: 'Company Name',
           desc: 'More portfolio work coming soon...',
           logo: 'user-2.jpg',

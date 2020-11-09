@@ -3,7 +3,7 @@
     class="text-center"
   >
     <v-responsive
-      class="mx-auto text-subtitle-1 font-weight-light mb-8 grey--text font-italic pa-2"
+      class="mx-auto text-body-1 font-weight-light mb-8 grey--text font-italic pa-2"
       max-width="720"
     >
       {{ review }}
@@ -20,7 +20,9 @@
           <v-list-item-title class="font-weight-bold title text-uppercase">
             {{ clientName }}
           </v-list-item-title>
-          <v-list-item-subtitle class="text-uppercase"> {{ jobTitle }}</v-list-item-subtitle>
+          <v-list-item-subtitle class="text-uppercase">
+            {{ jobTitle }}
+          </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
     </v-col>
