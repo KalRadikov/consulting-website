@@ -48,11 +48,6 @@
 <script>
   export default {
     name: 'CustomerReviews',
-    computed: {
-      theme () {
-        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
-      },
-    },
     data: () => ({
       reviews: [
         {
@@ -75,6 +70,11 @@
         },
       ],
     }),
+    computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
+    },
   }
 </script>
 
