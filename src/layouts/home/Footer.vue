@@ -12,17 +12,18 @@
           md="6"
         >
           <div class="d-flex flex-wrap justify-md-start justify-center justify-md-none">
-            <template v-for="(s, i) in social">
+            <template v-for="({name, link}, i) in social">
               <a
-                :key="s"
+                :key="name"
                 class="white--text pa-1 pa-md-0"
-                href="#"
-                v-text="s"
+                :href="link"
+                target="_blank"
+                v-text="name"
               />
 
               <v-responsive
                 v-if="i < social.length - 1"
-                :key="`divider-${s}`"
+                :key="`divider-${name}`"
                 class="mx-4 shrink hidden-sm-and-down"
                 max-height="24"
               >
@@ -50,10 +51,10 @@
 
     data: () => ({
       social: [
-        'Facebook',
-        'Twitter',
-        'Instagram',
-        'Linkedin',
+        { name: 'Git', link: 'https://github.com/KalRadikov' },
+        { name: 'Twitter', link: 'https://twitter.com/KRadikov' },
+        { name: 'Instagram', link: '#' },
+        { name: 'LinkedIn', link: 'https://www.linkedin.com/in/kal-radikov/' },
       ],
     }),
   }
