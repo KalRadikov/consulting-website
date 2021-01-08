@@ -32,6 +32,7 @@
       >
         <v-carousel
           cycle
+          interval="10000"
           hide-delimiter-background
         >
           <v-carousel-item

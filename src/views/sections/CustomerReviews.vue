@@ -53,8 +53,8 @@
         {
           headshot: 'pujara-logo.png',
           name: 'Rajesh Pujara',
-          title: 'DIRECTOR OF PUJARA GAMES',
-          text: '"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam aspernatur, sint recusandae cum temporibus quos saepe repellendus consectetur et reprehenderit. Ratione ipsam consequuntur quo eligendi mollitia veniam facere possimus inventore."',
+          title: 'CREATOR OF 7ports',
+          text: '"Very professional, punctual with deadlines, and saved me lots of time and money when putting together my website. I ended up saving me $150 per year on hosting costs and made my website exactly what I was looking for. Radikov Consulting walked me through the setup, installation process, and has provided me with support when configuring and editing the final product."',
         },
         {
           headshot: 'user-1.jpg',
