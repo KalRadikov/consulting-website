@@ -67,11 +67,11 @@
           link: 'https://7ports.ca/',
         },
         {
-          website: 'example-site.png',
-          name: 'Company Name',
+          website: 'kemm_scrollable.jpg',
+          name: 'Kemm Yates Professional Corporation',
           desc: 'More portfolio work coming soon...',
-          logo: 'user-1.jpg',
-          link: 'https://7ports.ca/',
+          logo: 'yates-logo.jpg',
+          link: 'https://ckypc.com/',
         },
         {
           website: 'example-site.png',
