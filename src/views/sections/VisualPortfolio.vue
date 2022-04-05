@@ -14,9 +14,9 @@
               <h5 class="text-ellipsis-1l">
                 {{ item.title }}
               </h5>
-              <p class="text-ellipsis-2l">
-                {{ item.content }}
-              </p>
+<!--              <p class="text-ellipsis-2l">-->
+<!--                {{ item.content }}-->
+<!--              </p>-->
             </div>
           </div>
         </template>
@@ -43,13 +43,18 @@
     data () {
       return {
         options: {
-          width: 300,
+          width: 400,
           padding: {
             2: 8,
-            default: 12,
+            default: 6,
           },
         },
         items: [
+          {
+            title: 'Curabitur sit amet nunc',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.',
+            image: 'portfolio-6.jpg',
+          },
           {
             title: 'Sed non ante non cras amet',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non sagittis leo. Vestibulum sit amet metus nec neque dignissim dapibus.',
@@ -80,11 +85,7 @@
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non sagittis leo. Vestibulum sit amet metus nec neque dignissim dapibus.',
             image: 'portfolio-5.jpg',
           },
-          {
-            title: 'Curabitur sit amet nunc',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.',
-            image: 'portfolio-6.jpg',
-          },
+
           {
             title: 'Proin pharetra, ante metus',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac diam ac ex efficitur posuere. Pellentesque cursus pellentesque risus, non.',
