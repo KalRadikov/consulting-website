@@ -19,12 +19,12 @@
           >
             <div class="text-center">
               <div
-                class="display-3 font-weight-black mb-4"
+                class="text-h2 font-weight-black mb-4"
                 v-text="value"
               />
 
               <div
-                class="title font-weight-regular text-uppercase"
+                class="text-h6 font-weight-regular text-uppercase"
                 v-text="title"
               />
             </div>

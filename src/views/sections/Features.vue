@@ -6,7 +6,7 @@
     <!--    <div class="py-12" />-->
 
     <v-container class="text-center">
-      <h2 class="display-2 font-weight-bold mb-3">
+      <h2 class="text-h3 font-weight-bold mb-3">
         WHAT WE FOCUS ON
       </h2>
 
@@ -51,7 +51,7 @@
             />
 
             <v-card-text
-              class="subtitle-1"
+              class="text-subtitle-1"
               v-text="text"
             />
           </v-card>

@@ -27,3 +27,5 @@ yarn-error.log*
 
 .release-it.json
 now.json
+yarn.lock
+package-lock.json

@@ -9,7 +9,7 @@
     />
     <v-container class="text-center">
       <v-responsive
-        class="mx-auto title font-weight-light mb-8"
+        class="mx-auto text-h6 font-weight-light mb-8"
         max-width="720"
       >
         Radikov Consulting was started in 2020 to better connect with our community to provide an understandable
@@ -50,7 +50,7 @@
             />
 
             <v-card-text
-              class="subtitle-1"
+              class="text-subtitle-1"
               v-text="text"
             />
           </v-card>
@@ -65,11 +65,6 @@
   export default {
     name: 'SectionOurStory',
     components: { BaseSectionHeading },
-    computed: {
-      theme () {
-        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
-      },
-    },
     data: () => ({
       features: [
         {
@@ -89,5 +84,10 @@
         },
       ],
     }),
+    computed: {
+      theme () {
+        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+      },
+    },
   }
 </script>

@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <base-section
     id="customer-reviews"
   >

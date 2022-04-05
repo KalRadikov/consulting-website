@@ -56,7 +56,7 @@
       <div class="py-12" />
 
       <v-container class="text-center">
-        <h2 class="display-2 font-weight-bold mb-3">
+        <h2 class="text-h3 font-weight-bold mb-3">
           ABOUT ME
         </h2>
 
@@ -70,7 +70,7 @@
         </v-responsive>
 
         <v-responsive
-          class="mx-auto title font-weight-light mb-8"
+          class="mx-auto text-h6 font-weight-light mb-8"
           max-width="720"
         >
           Vuetify is the #1 component library for Vue.js and has been in active development since 2016. The goal of the project is to provide users with everything that is needed to build rich and engaging web applications using the Material Design specification. It accomplishes that with a consistent update cycle, Long-term Support (LTS) for previous versions, responsive community engagement, a vast ecosystem of resources and a dedication to quality components.
@@ -107,7 +107,7 @@
       <div class="py-12" />
 
       <v-container class="text-center">
-        <h2 class="display-2 font-weight-bold mb-3">
+        <h2 class="text-h3 font-weight-bold mb-3">
           VUETIFY FEATURES
         </h2>
 
@@ -152,7 +152,7 @@
               />
 
               <v-card-text
-                class="subtitle-1"
+                class="text-subtitle-1"
                 v-text="text"
               />
             </v-card>
@@ -178,12 +178,12 @@
             >
               <div class="text-center">
                 <div
-                  class="display-3 font-weight-black mb-4"
+                  class="text-h2 font-weight-black mb-4"
                   v-text="value"
                 />
 
                 <div
-                  class="title font-weight-regular text-uppercase"
+                  class="text-h6 font-weight-regular text-uppercase"
                   v-text="title"
                 />
               </div>
@@ -197,7 +197,7 @@
       <div class="py-12" />
 
       <v-container>
-        <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center">
+        <h2 class="text-h3 font-weight-bold mb-3 text-uppercase text-center">
           Blog
         </h2>
 
@@ -230,7 +230,7 @@
             />
 
             <div
-              class="title font-weight-light mb-5"
+              class="text-h6 font-weight-light mb-5"
               v-text="text"
             />
 
@@ -257,7 +257,7 @@
       <div class="py-12" />
 
       <v-container>
-        <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center">
+        <h2 class="text-h3 font-weight-bold mb-3 text-uppercase text-center">
           Contact Me
         </h2>
 
@@ -326,7 +326,7 @@
       color="#292929"
       height="100"
     >
-      <div class="title font-weight-light grey--text text--lighten-1 text-center">
+      <div class="text-h6 font-weight-light grey--text text--lighten-1 text-center">
         &copy; {{ (new Date()).getFullYear() }} — Vuetify, LLC — Made with 💜 by John Leider
       </div>
     </v-footer>

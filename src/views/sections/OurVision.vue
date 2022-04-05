@@ -10,7 +10,7 @@
           title="Our Vision"
         />
         <v-responsive
-          class="mx-auto title font-weight-light mb-8"
+          class="mx-auto text-h6 font-weight-light mb-8"
           max-width="720"
         >
           We are inspired by a passion for technology, design, and helping small and medium sized business achieve success. Radikov Consulting always strives to offer open and honest advice, along with high quality work, very competitive prices, and personal customer service. Our goal is to be a one-stop shop for all of your company’s web, data, and marketing needs. If there’s anything we can’t help with, we will use our extensive network to find someone who can help!

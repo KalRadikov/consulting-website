@@ -129,6 +129,7 @@
       items: [
         'Home',
         'Services',
+        'Portfolio',
         'About',
         'Contact',
         // 'Test Page',

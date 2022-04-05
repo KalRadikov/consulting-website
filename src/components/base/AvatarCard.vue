@@ -6,7 +6,7 @@
     <base-avatar
       v-if="icon"
       :color="color"
-      :weirdFix="weirdFix"
+      :weird-fix="weirdFix"
       :dark="dark"
       :icon="icon"
       :outlined="outlined"

@@ -1,7 +1,7 @@
 <template>
   <base-section id="about-me">
     <v-container class="text-center">
-      <h2 class="display-2 font-weight-bold mb-3">
+      <h2 class="text-h3 font-weight-bold mb-3">
         THE TEAM
       </h2>
 
@@ -15,7 +15,7 @@
       </v-responsive>
 
       <v-responsive
-        class="mx-auto title font-weight-light mb-8"
+        class="mx-auto text-h6 font-weight-light mb-8"
         max-width="720"
       >
         Kaloyan (Kal) Radikov is a Calgary based Full-Stack developer with a

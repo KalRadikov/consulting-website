@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <v-theme-provider root>
     <v-container
       class="text-center"
@@ -19,7 +19,7 @@
       <v-col class="py-0">
         <v-list-item>
           <v-list-item-content>
-            <v-list-item-title class="font-weight-bold title text-uppercase">
+            <v-list-item-title class="font-weight-bold text-h6 text-uppercase">
               {{ clientName }}
             </v-list-item-title>
             <v-list-item-subtitle class="text-uppercase">
