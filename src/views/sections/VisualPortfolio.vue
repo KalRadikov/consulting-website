@@ -59,6 +59,7 @@
         imgs: '', // Img Url , string or Array of string
         visible: false,
         index: 0, // default: 0
+        // https://radikovconsulting.imgur.com/all online pictures are here
         items: [
           {
             title: 'Curabitur sit amet nunc',
@@ -80,10 +81,22 @@
             link: 'https://i.imgur.com/6xexz1C.jpg',
           },
           {
+            title: 'Curabitur sit amet nunc',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.',
+            image: 'skull.jpg',
+            link: 'https://i.imgur.com/wKItwOg.jpg',
+          },
+          {
             title: 'Proin pharetra, ante metus',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac diam ac ex efficitur posuere. Pellentesque cursus pellentesque risus, non.',
             image: 'woodguitar1.jpg',
             link: ['https://i.imgur.com/PXQ5V57.jpg', 'https://i.imgur.com/psaT5rN.jpg', 'https://i.imgur.com/TDhKReW.jpg'],
+          },
+          {
+            title: 'Curabitur sit amet nunc',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.',
+            image: 'monet.jpg',
+            link: 'https://i.imgur.com/mK6RsdY.jpg',
           },
           {
             title: 'Sed non ante non cras amet',
@@ -98,10 +111,22 @@
             link: ['https://i.imgur.com/F8azTHh.jpg', 'https://i.imgur.com/u03vkMp.jpg'],
           },
           {
+            title: 'Curabitur sit amet nunc',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.',
+            image: 'eiffelwood2.jpg',
+            link: ['https://i.imgur.com/PaAS9T2.jpg', 'https://i.imgur.com/4Lsmbej.jpg'],
+          },
+          {
             title: 'Cras pharetra non enim a',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada varius nibh, a malesuada nisi feugiat eget. Aenean convallis semper.',
             image: 'chairs.jpg',
             link: 'https://i.imgur.com/OpKDYjT.jpg',
+          },
+          {
+            title: 'Curabitur sit amet nunc',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.',
+            image: 'clarity.jpg',
+            link: 'https://i.imgur.com/AGVGAHV.jpg',
           },
           {
             title: 'Proin pharetra, ante metus',
