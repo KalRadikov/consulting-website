@@ -7,9 +7,9 @@
   import LoadSections from '@/mixins/load-sections'
 
   export default {
-    name: 'Portfolio',
+    name: 'Gallery',
 
-    metaInfo: { title: 'Portfolio' },
+    metaInfo: { title: 'Gallery' },
 
     extends: View,
 

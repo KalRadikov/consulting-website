@@ -42,8 +42,8 @@ const router = new Router({
           meta: { src: require('@/assets/about.jpg') },
         },
         {
-          path: 'portfolio',
-          name: 'Portfolio',
+          path: 'gallery',
+          name: 'Gallery',
           component: () => import('@/views/portfolio/Index.vue'),
           meta: { src: require('@/assets/about.jpg') },
         },

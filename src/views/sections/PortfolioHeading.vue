@@ -5,8 +5,11 @@
   >
     <!--    <div class="py-12" />-->
 
-    <base-section-heading title="Visual Portfolio Showcase">
-      Click to expand images
+    <base-section-heading title="Artistic Portfolio Showcase">
+      Sculpture, photography, and canvas media.
+      <br>
+      <br>
+      By Kal Radikov
     </base-section-heading>
   </base-section>
 </template>

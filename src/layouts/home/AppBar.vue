@@ -129,7 +129,7 @@
       items: [
         'Home',
         'Services',
-        'Portfolio',
+        'Gallery',
         'About',
         'Contact',
         // 'Test Page',
