@@ -5,19 +5,9 @@
   >
     <!--    <div class="py-12" />-->
 
-    <v-container class="text-center">
-      <h2 class="text-h3 font-weight-bold mb-3">
-        VISUAL PORTFOLIO SHOWCASE
-      </h2>
-
-      <v-responsive
-        class="mx-auto mb-12"
-        width="56"
-      >
-        <v-divider class="mb-1" />
-        <v-divider />
-      </v-responsive>
-    </v-container>
+    <base-section-heading title="Visual Portfolio Showcase">
+      Click to expand images
+    </base-section-heading>
   </base-section>
 </template>
 
