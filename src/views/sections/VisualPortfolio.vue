@@ -78,7 +78,7 @@
             title: 'Abstract Guitar - oil on canvas',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.',
             image: 'blueguitar.jpg',
-            link: 'https://i.imgur.com/6xexz1C.jpg',
+            link: 'https://i.imgur.com/3gg9FNd.jpg',
           },
           {
             title: 'Cow Skull - pastel on paper',
