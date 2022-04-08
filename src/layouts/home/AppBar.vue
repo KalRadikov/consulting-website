@@ -131,9 +131,8 @@
       },
     },
     mounted () {
-      const today = new Date()
-      const time = today.getHours() + ':' + today.getMinutes()
-      this.$vuetify.theme.dark = time > '18:00'
+      const time = new Date(new Date().toLocaleString()).getHours()
+      this.$vuetify.theme.dark = time > 18 && time < 6
     },
   }
 </script>
