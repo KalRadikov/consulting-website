@@ -132,7 +132,7 @@
     },
     mounted () {
       const time = new Date(new Date().toLocaleString()).getHours()
-      this.$vuetify.theme.dark = time > 18 && time < 6
+      this.$vuetify.theme.dark = time > 18 || time < 6
     },
   }
 </script>
