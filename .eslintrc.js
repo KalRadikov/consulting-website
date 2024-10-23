@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
 
-  extends: 'vuetify',
+  extends: ['eslint:recommended', 'plugin:vue/recommended'],
 
   parserOptions: {
     parser: 'babel-eslint',
@@ -14,10 +14,8 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-debugger': 'off',
-    // https://github.com/babel/babel-eslint/issues/681#issuecomment-420663038
     'template-curly-spacing': 'off',
     indent: 'off',
-    //
     'no-unused-vars': 'warn',
   },
 

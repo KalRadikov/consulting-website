@@ -10,22 +10,22 @@
       v-bind="$attrs"
       v-on="$listeners"
     >
-        <v-list
-          shaped
+      <v-list
+        shaped
+      >
+        <v-list-item
+          v-for="name in items"
+          :key="name"
+          :to="{ name }"
+          :exact="name === 'Home'"
+          color="primary"
         >
-          <v-list-item
-            v-for="name in items"
-            :key="name"
-            :to="{ name }"
-            :exact="name === 'Home'"
-            color="primary"
-          >
-            <v-list-item-content>
-              <v-list-item-title v-text="name" />
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-navigation-drawer>
+          <v-list-item-content>
+            <v-list-item-title v-text="name" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
   </v-theme-provider>
 </template>
 
