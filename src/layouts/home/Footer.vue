@@ -38,7 +38,7 @@
           cols="12"
           md="6"
         >
-          Copyright &copy; 2020 Radikov Consulting Inc.
+          Copyright &copy; 2024 {{ companyName }}
         </v-col>
       </v-row>
     </v-container>
@@ -48,7 +48,11 @@
 <script>
   export default {
     name: 'HomeFooter',
-
+    computed: {
+      companyName() {
+        return this.$companyName;
+      }
+    },
     data: () => ({
       social: [
         { name: 'Git', link: 'https://github.com/KalRadikov' },

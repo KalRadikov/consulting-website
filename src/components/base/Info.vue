@@ -12,12 +12,12 @@
       <base-title
         size="body-1"
         space="4"
-        title="REALIZE YOUR ONLINE POTENTIAL"
+        title="SMART SEARCH, SMARTER AI."
         weight="regular"
       />
 
       <base-body>
-        We want your website to look great, work better, and get found online. With a focus on quality design and helpful customer service, we also offer flexible payment plans and financing. Contact us today, or get a free quote and consultation on your dream website project. Affordable web design in Calgary.
+        Revolutionize data discovery and analysis through innovative search engineering and advanced machine learning algorithms. We leverage generative AI to transform how organizations navigate, interpret, and utilize data, so they can unlock valuable insights and make informed decisions in an increasingly complex digital landscape.
       </base-body>
 
       <base-btn

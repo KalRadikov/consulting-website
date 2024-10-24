@@ -13,7 +13,7 @@
           class="mx-auto text-h6 font-weight-light mb-8"
           max-width="720"
         >
-          We are inspired by a passion for technology, design, and helping small and medium sized business achieve success. Radikov Consulting always strives to offer open and honest advice, along with high quality work, very competitive prices, and personal customer service. Our goal is to be a one-stop shop for all of your company’s web, data, and marketing needs. If there’s anything we can’t help with, we will use our extensive network to find someone who can help!
+          We envision a future where organizations can easily implement advanced search engineering and intelligent data analysis and drive innovation. We help drive discovery for our clients, leveraging our vast expertise in search and ML to empower them to make impactful decisions that shape a smarter, more connected world.
         </v-responsive>
       </v-container>
     </v-parallax>

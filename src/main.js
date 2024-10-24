@@ -5,6 +5,7 @@ import vuetify from './plugins/vuetify'
 import './plugins'
 
 Vue.config.productionTip = false
+Vue.prototype.$companyName = 'Radial AI'
 
 new Vue({
   router,

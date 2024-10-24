@@ -23,7 +23,7 @@
         'contact-us',
         'customer-reviews',
         'affiliates',
-        'social-media',
+        //'social-media',
         'keep-in-touch',
         'newsletter',
         'info',

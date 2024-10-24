@@ -18,15 +18,13 @@
         class="mx-auto text-h6 font-weight-light mb-8"
         max-width="720"
       >
-        Kaloyan (Kal) Radikov is a Calgary based Full-Stack developer with a
-        passion for being on the cutting edge of software development.
-        Having worked in a wide range of companies from larger monolithic
-        enterprise to smaller fast paced microservice organizations, he
-        has a broad and in-depth skill set covering technical coding,
-        UI Design, testing, CI/CD, and cloud/local infrastructure. He is well
-        equipped to be out of his technical comfort zone and deal with high
-        stress scenarios. He loves to tinker with computers, lift heavy things,
-        go hiking, and paint on the side.
+        Kal Radikov is a Toronto based ML + Search Engineer with a
+        passion for new and upcoming advancements in data science.
+        Having worked in a wide range of companies from larger
+        enterprise to smaller fast paced organizations, he
+        has a broad and in-depth skill set covering Python, Golang, C#,
+        .NET/Core, OpenSearch, Solr, AWS, vector databases, and Tensorflow.
+        He is well equipped to understand what a company's search and data science needs are.
       </v-responsive>
 
       <v-avatar

@@ -5,18 +5,29 @@
   >
     <base-section-heading
       icon="mdi-book-open-blank-variant"
-      title="Our Story"
+      title="What we do"
     />
     <v-container class="text-center">
       <v-responsive
         class="mx-auto text-h6 font-weight-light mb-8"
         max-width="720"
       >
-        Radikov Consulting was started in 2020 to better connect with our community to provide an understandable
-        and affordable solution. After many years experience in professional software development, founder and CEO,
-        Kaloyan Radikov wanted to follow his passsion and branch out of slow moving enterprise practice and focus on exceptional
-        aesthetic, responsive speed, easy scalability, and much needed flexibility of a modern technical service.
-        We are a grassroots solution for grassroots businesses.
+        <p>We partner with large enterprises to tackle complex search and data science challenges.</p>
+
+        <p>You’ve got vast amounts of data and a sense that it holds untapped potential—but where do you begin?</p>
+
+        <br>
+        <p><strong>{{ companyName }}</strong></p>
+        <br>
+
+        <p>For our clients, we’ve driven revenue growth, improved search algorithms, optimized dynamic pricing, reduced operational costs, minimized
+          outages, squashed technical debt, and much more.</p>
+
+        <p>No data? No problem. We can help you establish a process for collecting and processing the data you need.</p>
+        <p>We’ll guide you in transforming that data into innovative, breakthrough technologies.</p>
+
+
+
       </v-responsive>
       <v-row>
         <v-col
@@ -61,33 +72,37 @@
 </template>
 
 <script>
-  import BaseSectionHeading from '../../components/base/SectionHeading'
-  export default {
-    name: 'SectionOurStory',
-    components: { BaseSectionHeading },
-    data: () => ({
-      features: [
-        {
-          title: 'New and upcoming',
-          text: '',
-          icon: 'mdi-memory',
-        },
-        {
-          title: 'Here for the community',
-          text: '',
-          icon: 'mdi-account-group',
-        },
-        {
-          title: 'Affordable Prices',
-          text: '',
-          icon: 'mdi-cash-check',
-        },
-      ],
-    }),
-    computed: {
-      theme () {
-        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+import BaseSectionHeading from '../../components/base/SectionHeading'
+
+export default {
+  name: 'SectionOurStory',
+  components: {BaseSectionHeading},
+  data: () => ({
+    features: [
+      {
+        title: 'New and upcoming',
+        text: '',
+        icon: 'mdi-memory',
       },
+      {
+        title: 'Here for the community',
+        text: '',
+        icon: 'mdi-account-group',
+      },
+      {
+        title: 'Affordable Prices',
+        text: '',
+        icon: 'mdi-cash-check',
+      },
+    ],
+  }),
+  computed: {
+    theme() {
+      return (this.$vuetify.theme.dark) ? 'dark' : 'light'
     },
-  }
+    companyName() {
+      return this.$companyName;
+    }
+  },
+}
 </script>

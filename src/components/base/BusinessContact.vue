@@ -48,17 +48,17 @@
         {
           icon: 'mdi-map-marker-outline',
           title: 'Address',
-          text: 'TBD<br>TBD',
+          text: 'TBD',
         },
         {
           icon: 'mdi-cellphone',
           title: 'Phone',
-          text: '00 (000) 000 000<br>00 (000) 000 000',
+          text: '00 (000) 000 000',
         },
         {
           icon: 'mdi-email',
           title: 'Email',
-          text: 'radikov.consulting@gmail.com<br>TBD@TBD.com',
+          text: 'radikov.consulting@gmail.com',
         },
       ],
     }),

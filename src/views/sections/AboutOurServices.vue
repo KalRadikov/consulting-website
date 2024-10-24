@@ -37,7 +37,7 @@ export default {
       {
         title: 'Entity Recognition',
         subtitle: 'Understanding Context',
-        text: 'We implement advanced entity recognition techniques to extract and categorize key information from unstructured data. This enhances search capabilities by enabling more relevant and context-aware results for user queries.',
+        text: 'We implement advanced entity recognition techniques to extract, resolve, and categorize key information from unstructured data. This enhances search capabilities by enabling more relevant and context-aware results for user queries.',
         callout: '01',
       },
       {
@@ -53,7 +53,7 @@ export default {
         callout: '03',
       },
       {
-        title: 'Sentence Transformers',
+        title: 'Transformers',
         subtitle: 'Natural Language Processing',
         text: 'Our expertise includes the implementation of sentence transformers from Python, allowing us to generate contextualized embeddings for sentences and paragraphs. This improves semantic search capabilities and enhances the relevance of search results.',
         callout: '04',
@@ -65,13 +65,13 @@ export default {
         callout: '05',
       },
       {
-        title: 'Machine Learning Models (BERT)',
+        title: 'Machine Learning',
         subtitle: 'Intelligence',
         text: 'We implement state-of-the-art ML models like BERT to enhance search functionality through advanced natural language understanding, improving the relevance and context of search results.',
         callout: '06',
       },
       {
-        title: 'Optimization Techniques for Vector Databases',
+        title: 'Optimization  ',
         subtitle: 'Efficiency',
         text: 'We apply cutting-edge optimization techniques to vector databases, including indexing strategies and query optimization, to ensure rapid response times even with large-scale data.',
         callout: '07',
@@ -85,7 +85,7 @@ export default {
       {
         title: 'Custom Search Solutions',
         subtitle: 'Tailored',
-        text: 'We create bespoke search solutions that cater to unique business requirements, incorporating advanced filtering, faceted search, and personalized results to improve user engagement and satisfaction.',
+        text: 'We create BM25 search solutions that cater to unique business requirements, incorporating advanced filtering, faceted search, and personalized results to improve user engagement and satisfaction.',
         callout: '09',
       },
     ],
