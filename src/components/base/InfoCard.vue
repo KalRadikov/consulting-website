@@ -48,7 +48,7 @@
           cols="2"
         >
           <div
-            class="text-h2 grey--text text--lighten-4 font-weight-bold pr-8"
+            :class="calloutClasses"
             v-text="callout"
           />
         </v-col>
@@ -58,25 +58,47 @@
 </template>
 
 <script>
-  // Mixins
-  import Heading from '@/mixins/heading'
+// Mixins
+import Heading from '@/mixins/heading'
+import BaseDivider from "@/components/base/Divider.vue";
+import BaseBody from "@/components/base/Body.vue";
+import BaseTitle from "@/components/base/Title.vue";
+import BaseSubtitle from "@/components/base/Subtitle.vue";
+import BaseIcon from "@/components/base/Icon.vue";
 
-  export default {
-    name: 'BaseInfoCard',
+export default {
+  name: 'BaseInfoCard',
+  components: {BaseIcon, BaseSubtitle, BaseTitle, BaseBody, BaseDivider},
 
-    mixins: [Heading],
+  mixins: [Heading],
 
-    props: {
-      dark: Boolean,
-      callout: String,
-      color: {
-        type: String,
-        default: 'primary',
-      },
-      icon: String,
-      subtitle: String,
-      text: String,
-      title: String,
+  props: {
+    dark: Boolean,
+    callout: String,
+    color: {
+      type: String,
+      default: 'primary',
     },
-  }
+    icon: String,
+    subtitle: String,
+    text: String,
+    title: String,
+  },
+
+  computed: {
+    calloutClasses() {
+      return {
+        'text-h2': true,
+        'font-weight-bold': true,
+        'pr-8': true,
+        'grey--text text--lighten-4': !this.dark,
+        'grey--text text--darken-4': this.dark,
+      };
+    },
+  },
+}
 </script>
+
+<style scoped>
+/* Optional: Add styles for dark mode if needed */
+</style>

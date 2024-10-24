@@ -14,7 +14,10 @@
           cols="12"
           md="4"
         >
-          <base-info-card v-bind="card" />
+          <base-info-card
+            :dark="$vuetify.theme.dark"
+            v-bind="card"
+          />
         </v-col>
       </v-row>
     </v-container>
@@ -22,48 +25,72 @@
 </template>
 
 <script>
-// todo: convince why business needs these
-  export default {
-    name: 'SectionAboutOurProduct',
-    data: () => ({
-      cards: [
-        {
-          title: 'Software Engineering',
-          subtitle: 'Code',
-          text: 'Our team of software engineers coordinate the creation, maintenance and growth of a business’ computer systems. Our team is proficient in the worlds most popular technologies and languages such as Python, Java, .NET, AWS, and Vue to name a few.',
-          callout: '01',
-        },
-        {
-          title: 'Infrastructure',
-          subtitle: 'Back end',
-          text: 'We collaborate with business stakeholders to understand their particular needs, then translate those into technical requirements and come up with the most effective and efficient solution for designing the technology.',
-          callout: '02',
-        },
-        {
-          title: 'UI/UX Work',
-          subtitle: 'Front end',
-          text: 'We accurately identify specific issues in user experience and provide recommendations and codified solutions to influence the design. Making a website visually attractive and easy to use, from development to delivery.',
-          callout: '03',
-        },
-        {
-          title: 'Continuous Delivery',
-          subtitle: 'Development Flow',
-          text: 'To be successful at continuous integration and continuous delivery, it is critical to do integration and testing well. With a solid foundation, we excel on all three fronts: quality, frequency, and predictability.',
-          callout: '04',
-        },
-        {
-          title: 'Testing',
-          subtitle: 'Correctness',
-          text: 'As your business grows, to ensure the foundation A good testing suite should try to break the app and help understand its limit. We have experience with: Automated testing, Unit tests, Integration tests, Functional tests, End-to-end tests, Acceptance testing, Performance testing.',
-          callout: '05',
-        },
-        {
-          title: 'Best Practices',
-          subtitle: 'Industry',
-          text: 'Readable yet efficient code, we highly value the S.O.L.I.D principles and other guiding best practices of modern software design.',
-          callout: '06',
-        },
-      ],
-    }),
-  }
+import BaseSection from "@/components/base/Section.vue";
+import BaseSectionHeading from "@/components/base/SectionHeading.vue";
+import BaseInfoCard from "@/components/base/InfoCard.vue";
+
+export default {
+  name: 'SectionAboutOurProduct',
+  components: {BaseInfoCard, BaseSectionHeading, BaseSection},
+  data: () => ({
+    cards: [
+      {
+        title: 'Entity Recognition',
+        subtitle: 'Understanding Context',
+        text: 'We implement advanced entity recognition techniques to extract and categorize key information from unstructured data. This enhances search capabilities by enabling more relevant and context-aware results for user queries.',
+        callout: '01',
+      },
+      {
+        title: 'Data Science Expertise',
+        subtitle: 'Insights',
+        text: 'Leveraging advanced data science techniques, we analyze and interpret complex datasets to derive actionable insights, enhancing search capabilities and user experience through data-driven decision-making.',
+        callout: '02',
+      },
+      {
+        title: 'Embedding Techniques',
+        subtitle: 'Representation',
+        text: 'We specialize in generating embeddings that represent data in lower-dimensional spaces, facilitating effective similarity searches and enabling richer user interactions with your data.',
+        callout: '03',
+      },
+      {
+        title: 'Sentence Transformers',
+        subtitle: 'Natural Language Processing',
+        text: 'Our expertise includes the implementation of sentence transformers from Python, allowing us to generate contextualized embeddings for sentences and paragraphs. This improves semantic search capabilities and enhances the relevance of search results.',
+        callout: '04',
+      },
+      {
+        title: 'Vector Databases',
+        subtitle: 'Storage & Retrieval',
+        text: 'Our expertise includes the optimization and management of vector databases, ensuring fast and scalable retrieval of high-dimensional data through techniques such as approximate nearest neighbor (ANN) search.',
+        callout: '05',
+      },
+      {
+        title: 'Machine Learning Models (BERT)',
+        subtitle: 'Intelligence',
+        text: 'We implement state-of-the-art ML models like BERT to enhance search functionality through advanced natural language understanding, improving the relevance and context of search results.',
+        callout: '06',
+      },
+      {
+        title: 'Optimization Techniques for Vector Databases',
+        subtitle: 'Efficiency',
+        text: 'We apply cutting-edge optimization techniques to vector databases, including indexing strategies and query optimization, to ensure rapid response times even with large-scale data.',
+        callout: '07',
+      },
+      {
+        title: 'Multimodal Embeddings',
+        subtitle: 'Integration',
+        text: 'We develop multimodal embedding strategies that combine textual, visual, and audio data to create a more holistic understanding of user queries and enhance search results.',
+        callout: '08',
+      },
+      {
+        title: 'Custom Search Solutions',
+        subtitle: 'Tailored',
+        text: 'We create bespoke search solutions that cater to unique business requirements, incorporating advanced filtering, faceted search, and personalized results to improve user engagement and satisfaction.',
+        callout: '09',
+      },
+    ],
+  }),
+}
+
+
 </script>
