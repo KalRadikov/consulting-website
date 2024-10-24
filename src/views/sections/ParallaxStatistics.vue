@@ -41,10 +41,10 @@
 
     data: () => ({
       stats: [
-        ['2y', 'Web Experience'],
-        ['5y', 'Professional experience'],
-        ['15', 'Projects completed'],
-        ['100%', 'passionate'],
+        ['2y', 'Frontend Experience'],
+        ['5y', 'Search Experience'],
+        ['13', 'Projects completed'],
+        ['100%', 'Client satisfaction'],
       ],
     }),
   }

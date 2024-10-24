@@ -69,19 +69,19 @@
     data: () => ({
       features: [
         {
-          icon: 'mdi-account-group-outline',
-          title: 'Small Business',
-          text: 'We’re a 100% remote startup. From one small business to another, we understand the limitations you’re working with. We help set you up with the tools and technologies to keep the business running without more overhead.',
+          icon: 'mdi-magnify',
+          title: 'Search Engineering',
+          text: 'With expertise in platforms like OpenSearch, Elasticsearch, and Solr, we improve search relevancy, reduce latency, and improve system efficiency for businesses.',
         },
         {
           icon: 'mdi-chart-areaspline',
-          title: 'Scalable',
-          text: 'When the demand ramps up, we provide the right foundation and best practices for your business to grow and scale out. Starting small is okay, in fact that’s what gives us the flexibility to do it right the first time.',
+          title: 'Scalability',
+          text: 'Scale seamlessly while maintaining high performance under heavy workloads through proper search database resourcing and optimization techniques.',
         },
         {
-          icon: 'mdi-shield-outline',
-          title: 'Maintainable',
-          text: 'We want to make the hand off as easy as possible so that you can maintain your solution without introducing unneeded complexity or technical ability. We build the right solution to compliment the abilities of whoever has to use it after.',
+          icon: 'mdi-brain',
+          title: 'AI',
+          text: 'Leverage machine learning models and vector databases to enhance natural language understanding, semantics, and performance for accurate and context-aware search results.',
         },
       ],
     }),

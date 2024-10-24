@@ -7,14 +7,6 @@
       elevation="1"
       height="80"
     >
-      <!--      <base-img-->
-      <!--        :src="require('@/assets/logo.svg')"-->
-      <!--        class="mr-3 hidden-xs-only"-->
-      <!--        contain-->
-      <!--        max-width="52"-->
-      <!--        width="100%"-->
-      <!--      />-->
-
       <router-link to="/">
         <base-img
           v-if="this.$vuetify.theme.dark"
@@ -31,68 +23,70 @@
           width="100%"
         />
       </router-link>
-      <v-spacer />
+
+      <v-spacer/>
+
       <div>
         <v-tabs
           class="hidden-sm-and-down"
+          v-model="activeTab"
           optional
         >
           <v-tab
-            v-for="(name, i) in items"
+            v-for="(item, i) in tabs"
             :key="i"
-            :to="{ name }"
-            :exact="name === 'Home'"
+            :to="item.route"
             :ripple="false"
             active-class="text--primary"
             class="font-weight-bold"
             min-width="96"
             text
+            exact
           >
-            {{ name }}
+            {{ item.label }}
           </v-tab>
-          <!--          <v-container class="d-flex align-center justify-center">-->
-          <!--            <v-tooltip-->
-          <!--              v-if="!$vuetify.theme.dark"-->
-          <!--              bottom-->
-          <!--            >-->
-          <!--              <template v-slot:activator="{ on }">-->
-          <!--                <v-btn-->
-          <!--                  color="info"-->
-          <!--                  x-small-->
-          <!--                  fab-->
-          <!--                  v-on="on"-->
-          <!--                  @click="darkMode"-->
-          <!--                >-->
-          <!--                  <v-icon class="mr-1">-->
-          <!--                    mdi-moon-waxing-crescent-->
-          <!--                  </v-icon>-->
-          <!--                </v-btn>-->
-          <!--              </template>-->
-          <!--              <span>Dark Mode On</span>-->
-          <!--            </v-tooltip>-->
-
-          <!--            <v-tooltip-->
-          <!--              v-else-->
-          <!--              bottom-->
-          <!--            >-->
-          <!--              <template v-slot:activator="{ on }">-->
-          <!--                <v-btn-->
-          <!--                  color="info"-->
-          <!--                  x-small-->
-          <!--                  fab-->
-          <!--                  v-on="on"-->
-          <!--                  @click="darkMode"-->
-          <!--                >-->
-          <!--                  <v-icon color="yellow">-->
-          <!--                    mdi-white-balance-sunny-->
-          <!--                  </v-icon>-->
-          <!--                </v-btn>-->
-          <!--              </template>-->
-          <!--              <span>Dark Mode Off</span>-->
-          <!--            </v-tooltip>-->
-          <!--          </v-container>-->
         </v-tabs>
       </div>
+      <v-container class="d-flex align-center justify-center pa-0" style="width: 90px;">
+        <v-tooltip
+          v-if="!$vuetify.theme.dark"
+          bottom
+        >
+          <template v-slot:activator="{ on }">
+            <v-btn
+              color="info"
+              x-small
+              fab
+              v-on="on"
+              @click="toggleDarkMode"
+            >
+              <v-icon class="mr-1">
+                mdi-moon-waxing-crescent
+              </v-icon>
+            </v-btn>
+          </template>
+          <span>Dark Mode On</span>
+        </v-tooltip>
+        <v-tooltip
+          v-else
+          bottom
+        >
+          <template v-slot:activator="{ on }">
+            <v-btn
+              color="info"
+              x-small
+              fab
+              v-on="on"
+              @click="toggleDarkMode"
+            >
+              <v-icon color="yellow">
+                mdi-white-balance-sunny
+              </v-icon>
+            </v-btn>
+          </template>
+          <span>Dark Mode Off</span>
+        </v-tooltip>
+      </v-container>
 
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
@@ -102,48 +96,57 @@
 
     <home-drawer
       v-model="drawer"
-      :items="items"
+      :items="tabs.map(tab => tab.label)"
     />
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'HomeAppBar',
+export default {
+  name: 'HomeAppBar',
 
-    components: {
-      HomeDrawer: () => import('./Drawer'),
+  components: {
+    HomeDrawer: () => import('./Drawer'),
+  },
+  data: () => ({
+    drawer: null,
+    activeTab: null,
+    tabs: [
+      {label: 'Home', route: '/'},
+      {label: 'Services', route: '/services'},
+      {label: 'Gallery', route: '/gallery'},
+      {label: 'About', route: '/about'},
+      {label: 'Contact', route: '/contact-us'},
+    ],
+  }),
+  watch: {
+    $route(to) {
+      this.activeTab = to.path;
     },
-    data: () => ({
-      drawer: null,
-      items: [
-        'Home',
-        'Services',
-        'Gallery',
-        'About',
-        'Contact',
-        // 'Test Page',
-      ],
-    }),
-    mounted () {
-      const time = new Date(new Date().toLocaleString()).getHours()
-      this.$vuetify.theme.dark = time > 18 || time < 6
+  },
+  mounted() {
+    this.activeTab = this.$route.path;
+  },
+  methods: {
+    toggleDarkMode() {
+      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
     },
-    methods: {
-      darkMode () {
-        this.$vuetify.theme.dark = !this.$vuetify.theme.dark
-      },
-    },
-  }
+  },
+}
 </script>
 
 <style lang="sass">
-  #home-app-bar
-    .v-tabs-slider
-      max-width: 24px
-      margin: 0 auto
+#home-app-bar
+  .v-tabs-slider
+    max-width: 24px
+    margin: 0 auto
 
-    .v-tab
-      &::before
-        display: none
+  .v-tab
+    &::before
+      display: none
+
+.dark-mode-toggle
+  width: 50px
+  max-width: 50px
+  padding: 0 !important
 </style>

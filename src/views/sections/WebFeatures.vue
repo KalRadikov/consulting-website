@@ -1,7 +1,7 @@
 <template>
   <base-section id="web-features">
-    <base-section-heading title="Web Development Features">
-      Close to 50% of online viewers see a website’s design as the number one criterion with respect to a company's credibility. If your website looks staled and outdated, or simply non-professional, you could be losing customers.
+    <base-section-heading title="Search Engineering Expertise">
+      In today's data-driven world, effective search functionality is crucial for enhancing user experience and driving engagement. Our expertise in search technologies ensures that your applications deliver fast, relevant, and scalable results.
     </base-section-heading>
 
     <v-container>
@@ -18,8 +18,7 @@
             horizontal
             :weird-fix="true"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi
-            beatae quas maxime, laboriosam excepturi solut!
+            {{ feature.description }}
           </base-avatar-card>
         </v-col>
       </v-row>
@@ -28,58 +27,58 @@
 </template>
 
 <script>
-  export default {
-    name: 'SectionThemeFeatures',
-    data: () => ({
-      features: [
-        {
-          color: 'primary',
-          dark: true,
-          title: 'Pixel Perfect Design',
-          icon: 'mdi-fountain-pen-tip',
-          text: 'No matter the resolution of the screen you are using. Your solution will look flawless and professional. No blurry logos, no offset items.',
-        },
-        {
-          color: 'primary',
-          dark: true,
-          title: 'Desktop and Mobile ready',
-          icon: 'mdi-cellphone',
-          text: 'Whether your customers are viewing it at home or on the go, it’ll look amazing. See how this website looks on different devices!',
-        },
-        {
-          color: 'primary',
-          dark: true,
-          title: 'Easily Customizable',
-          text: 'Check out the gear icon on the right to see how easy it is to customize and make your solution stand out.',
-          icon: 'mdi-pencil-box-outline',
-        },
-        {
-          color: 'primary',
-          dark: true,
-          title: 'Aesthetics',
-          icon: 'mdi-image-size-select-actual',
-          text: 'Be it implementing image parallax or flashy transitions, we make sure your solution looks the best it can.',
-        },
-        {
-          color: 'primary',
-          dark: true,
-          title: 'Search Engine Optimized',
-          icon: 'mdi-ice-pop',
-          text: 'Optimizing your site and content with SEO in mind can help your pages rank higher in the search results.',
-        },
-        {
-          color: 'primary',
-          dark: true,
-          title: 'Domain name and hosting',
-          icon: 'mdi-database',
-          text: 'An essential part of any website. Going with the right webhost or domain registrar can be day/night to your website’s performance and cost. Only pay for what you use.',
-        },
-      ],
-    }),
-    computed: {
-      theme () {
-        return (this.$vuetify.theme.dark) ? 'dark' : 'light'
+export default {
+  name: 'SectionThemeFeatures',
+  data: () => ({
+    features: [
+      {
+        color: 'primary',
+        dark: true,
+        title: 'Entity Recognition',
+        icon: 'mdi-magnify',
+        description: 'Utilizing advanced machine learning techniques to accurately identify and resolve entities, improving search relevancy by over 90%.',
       },
+      {
+        color: 'primary',
+        dark: true,
+        title: 'Scalability Solutions',
+        icon: 'mdi-server',
+        description: 'Implementing optimization techniques in search databases to ensure seamless scaling, reducing indexing times significantly.',
+      },
+      {
+        color: 'primary',
+        dark: true,
+        title: 'Vector Search Implementation',
+        icon: 'mdi-vector-square',
+        description: 'Integrating vector databases to enhance search capabilities and deliver contextually relevant results through similarity search.',
+      },
+      {
+        color: 'primary',
+        dark: true,
+        title: 'NLP Integration',
+        icon: 'mdi-language-python',
+        description: 'Leveraging natural language processing to improve query understanding and enhance user interactions with search functionalities.',
+      },
+      {
+        color: 'primary',
+        dark: true,
+        title: 'Entity Co-linking and Resolution',
+        icon: 'mdi-link',
+        description: 'Implementing techniques for merging data, entity co-linking, and resolution to ensure accurate representation from context.',
+      },
+      {
+        color: 'primary',
+        dark: true,
+        title: 'Data Quality Improvement',
+        icon: 'mdi-database-check',
+        description: 'Enhancing data quality in search documents through thorough validation and transformation processes to ensure accurate results.',
+      },
+    ],
+  }),
+  computed: {
+    theme () {
+      return (this.$vuetify.theme.dark) ? 'dark' : 'light'
     },
-  }
+  },
+}
 </script>
