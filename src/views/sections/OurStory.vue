@@ -20,14 +20,13 @@
         <p><strong>{{ companyName }}</strong></p>
         <br>
 
-        <p>For our clients, we’ve driven revenue growth, improved search algorithms, optimized dynamic pricing, reduced operational costs, minimized
-          outages, squashed technical debt, and much more.</p>
+        <p>
+          For our clients, we’ve driven revenue growth, improved search algorithms, optimized dynamic pricing, reduced operational costs, minimized
+          outages, squashed technical debt, and much more.
+        </p>
 
         <p>No data? No problem. We can help you establish a process for collecting and processing the data you need.</p>
         <p>We’ll guide you in transforming that data into innovative, breakthrough technologies.</p>
-
-
-
       </v-responsive>
       <v-row>
         <v-col

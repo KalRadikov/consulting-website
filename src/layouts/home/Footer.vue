@@ -48,11 +48,6 @@
 <script>
   export default {
     name: 'HomeFooter',
-    computed: {
-      companyName() {
-        return this.$companyName;
-      }
-    },
     data: () => ({
       social: [
         { name: 'Git', link: 'https://github.com/KalRadikov' },
@@ -61,6 +56,11 @@
         { name: 'LinkedIn', link: 'https://www.linkedin.com/in/kal-radikov/' },
       ],
     }),
+    computed: {
+      companyName() {
+        return this.$companyName;
+      }
+    },
   }
 </script>
 
