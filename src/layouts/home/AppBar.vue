@@ -8,14 +8,14 @@
       height="80"
     >
       <router-link to="/">
-        <base-img
+        <base-image
           v-if="this.$vuetify.theme.dark"
           :src="require('@/assets/radikov-consulting-light.svg')"
           contain
           max-width="260"
           width="100%"
         />
-        <base-img
+        <base-image
           v-else
           :src="require('@/assets/radikov-consulting-dark.svg')"
           contain
@@ -24,12 +24,12 @@
         />
       </router-link>
 
-      <v-spacer/>
+      <v-spacer />
 
       <div>
         <v-tabs
-          class="hidden-sm-and-down"
           v-model="activeTab"
+          class="hidden-sm-and-down"
           optional
         >
           <v-tab
@@ -47,7 +47,10 @@
           </v-tab>
         </v-tabs>
       </div>
-      <v-container class="d-flex align-center justify-center pa-0" style="width: 90px;">
+      <v-container
+        class="d-flex align-center justify-center pa-0"
+        style="width: 90px;"
+      >
         <v-tooltip
           v-if="!$vuetify.theme.dark"
           bottom
@@ -102,10 +105,13 @@
 </template>
 
 <script>
+import BaseImage from "@/components/base/Img.vue";
+
 export default {
   name: 'HomeAppBar',
 
   components: {
+    BaseImage,
     HomeDrawer: () => import('./Drawer'),
   },
   data: () => ({
